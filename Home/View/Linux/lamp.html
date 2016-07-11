@@ -1,0 +1,915 @@
+<script type="text/javascript" src="<{:C('PLUGIN_URL')}>uEditor/ueditor.config.js"></script>
+<script type="text/javascript" src="<{:C('PLUGIN_URL')}>uEditor/ueditor.all.min.js"> </script>
+<script type="text/javascript" src="<{:C('PLUGIN_URL')}>uEditor/lang/zh-cn/zh-cn.js"></script>
+<!--右侧总页面开始-->
+<div class="col-md-10">
+
+  <div class="row">
+
+    <!--热门博客列开始-->
+    <div class="col-md-9">
+
+
+      <h4 class="text-danger">最近热门</h4>
+      <div class="row">
+        <div class="col-md-6">
+
+          <div class="media" style="height: 120px;">
+            <a class="pull-left" href="#">
+              <img class="media-object" src="<{:C('IMG_URL')}>a1.jpg" alt="...">
+            </a>
+            <div class="media-body">
+              <h4 class="media-heading">系列：十天精通CSS3</h4>
+              <div>全方位深刻详解CSS3模块知识，经典案例分！</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="media" style="height: 120px;">
+            <a class="pull-left" href="#">
+              <img class="media-object" src="<{:C('IMG_URL')}>a1.jpg" alt="...">
+            </a>
+            <div class="media-body">
+              <h4 class="media-heading">系列：十天精通CSS3</h4>
+              <div>全方位深刻详解CSS3模块知识，经典案例分析！</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--热门博客列结束-->
+
+    <!--天气和搜索页面-->
+    <div class="col-md-3">
+
+      <div class="row">
+
+        <div class="col-md-12">
+          <div id="search" class="sidebar-block search" role="search">
+            <h3 class="text-info text-center">搜索文章</h3>
+            <form class="navbar-form" action="search.php" method="post">
+              <div class="input-group">
+                <input type="text" class="form-control" size="35" placeholder="请输入关键字">
+                        <span class="input-group-btn">
+                    <button class="btn btn-success btn-search" type="submit">搜索</button>
+                    </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!--天气和搜索页面结束-->
+
+  </div>
+  <!--右侧页面第一行结束-->
+
+
+  <!--首页右侧第二行开始-->
+  <div class="row">
+
+
+    <!--选项卡小功能开始-->
+    <div class="col-md-9">
+
+      <ul id="myTab" class="nav nav-pills" role="tablist">
+        <li class="active"><a href="#Apache" role="tab" data-toggle="pill">Apache</a></li>
+        <li><a href="#Mysql" role="tab" data-toggle="pill">MYSQL</a></li>
+        <li><a href="#Php" role="tab" data-toggle="pill">PHP</a></li>
+        <li><a href="#Redis" role="tab" data-toggle="pill">Redis</a></li>
+        <li><a href="#Memcache" role="tab" data-toggle="pill">Memcache</a></li>
+        <li><a href="#Sphinx" role="tab" data-toggle="pill">Sphinx</a></li>
+      </ul>
+
+      <!-- 选项卡面板 -->
+      <div id="myTabContent" class="tab-content">
+        <!--Apache-->
+        <div class="tab-pane fade in active" id="Apache">
+          <div class="row" style="margin-top: 15px;">
+            <div class="col-md-12">
+              <div class="panel panel-default">
+                <div class="panel-heading">lamp-apache</div>
+                <div class="panel-body">
+                  1.安装依赖包
+                  yum install gcc zlib zlib-devel pcre pcre-devel apr apr-devel apr-util apr-util-devel -y
+                  2.下载httpd到/usr/local/src/
+                  cd /usr/local/src/
+                  wget ftp://www.ehaomiao.cn/apache/httpd-2.2.31.tar.gz
+                  3.解压httpd
+                  tar -zxvf httpd-2.2.31.tar.gz
+                  4.进入/usr/local/src/httpd-2.2.31/目录进行./configure配置检查
+                  cd /usr/local/src/httpd-2.2.31/
+                  ./configure –prefix=/usr/local/apache –enable-module=so –enable-deflate=shared –enable-expires=shared –enable-rewrite=shared –with-mpm=worker
+                  #–prefix=/usr/local/apache //指定apache的安装路径
+                  #–enable-module=so //打开 so 模块，so 模块是用来提 DSO 支持的 apache 核心模块
+                  #–enable-deflate=shared //支持网页压缩
+                  #–enable-expires=shared //支持 HTTP 控制
+                  #–enable-rewrite=shared //支持 URL 重写
+                  #–with-mpm=worker //让apache以worker方式运行
+                  如果需要更多的参数，可以使用./configure –help 查看更多参数
+                  5.make安装
+                  make && echo $?
+                  最后一行显示为0 即为正确
+                  make install && echo $?
+                  最后一行显示为0即为正确
+                  6.检查apache配置文件是否正确
+                  /usr/local/apache/bin/apachectl -t
+                  提示以下信息：
+                  httpd: apr_sockaddr_info_get() failed for host5.localdomain
+                  httpd: Could not reliably determine the server’s fully qualified domain name, using 127.0.0.1 for ServerName
+                  Syntax OK
+                  这个问题是由于在配置文件/usr/local/apache/conf/httpd.conf 中没有设置ServerName，所以apache会用主机上的名称来取代，读取/etc/hosts文件检查是否有定义。
+                  解决这个问题有两个方法：
+                  （1）编辑/etc/hosts文件 不常用
+                  （2）编辑apache配置文件/usr/local/apache/conf/httpd.conf
+                  vim /usr/local/apache/conf/httpd.conf
+                  找到 #ServerName www.example.com:80去掉前面的注释
+                  并修改为 ServerName localhost:80
+                  重新检查配置文件
+                  /usr/local/apache/bin/apachectl -t
+                  显示Syntax OK
+                  7.设置环境变量
+                  vi /root/.bash_profile
+                  将/usr/local/apache/bin添加进PATH中
+                  PATH=/usr/local/apache/bin:/usr/local/mysql/bin:$PATH:$HOME/bin
+                  8.启动apache
+                  apachectl start
+                  netstat -atnlp | grep 80 查看系统是否监听80端口
+                  ps -ef | grep httpd 查看httpd进程
+                  9.浏览器访问
+                  在浏览器中输入http://ip
+                  界面显示内容为It works! 恭喜你！你的apache安装成功了。
+                  如果想要更改显示内容默认的页面文件路径为/usr/local/apache/htdocs/
+                  具体的内容我们以后再唠！！！
+                </div>
+                <div class="panel-footer">作者：尘剑</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--Mysql-->
+        <div class="tab-pane fade" id="Mysql">
+          <div class="row" style="margin-top: 15px;">
+            <div class="col-md-12">
+              <div class="panel panel-default">
+                <div class="panel-heading">lamp-mysql</div>
+                <div class="panel-body">
+                  1.下载mysql到/usr/local/src/
+                  cd /usr/local/src/
+                  wget ftp://www.ehaomiao.cn/mysql/mysql-5.1.73-linux-i686-glibc23.tar.gz
+                  2.解压数据到/usr/local/
+                  tar -zxvf mysql-5.1.73-linux-i686-glibc23.tar.gz -C /usr/local/
+                  3.重命名目录
+                  cd /usr/local/
+                  mv mysql-5.1.73-linux-i686-glibc23 /usr/local/mysql
+                  4.建立mysql用户和组
+                  useradd -s /sbin/nologin mysql
+                  5.更改文件属组属主
+                  chown mysql:mysql /usr/local/mysql -R
+                  6.创建数据库数据存储目录，并复制默认数据，更改属主
+                  mkdir -p /data/mydata
+                  cp -r /usr/local/mysql/data/* /data/mydata
+                  chown mysql /data/mydata
+                  7.初始化数据库
+                  cd /usr/local/mysql
+                  ./scripts/mysql_install_db –user=mysql –basedir=/usr/local/mysql –datadir=/data/mydata
+                  初始化过程返回两个“OK”的状态，即为初始化正确
+                  #–user=运行mysql的用户
+                  #–basedir=数据库文件所在目录
+                  #–datadir=数据存储目录 ，默认的存储位置为/usr/local/mysql/data
+                  echo $?  #查看初始化是否成功，返回结果为0即为成功
+                  8.更改文件的属主为root
+                  chown root /usr/local/mysql -R
+                  9.拷贝配置文件
+                  cd /usr/local/mysql
+                  cp support-files/my-medium.cnf /etc/my.cnf
+                  vim /etc/my.cnf
+                  在【mysqld】下添加
+                  datadir = /data/mydata
+                  10.拷贝启动脚本
+                  cd /usr/local/mysql
+                  cp support-files/mysql.server /etc/init.d/mysqld
+                  vim /etc/init.d/mysqld
+                  添加以下两行
+                  datadir=/data/mydata   #前面初始化数据库时定义的目录
+                  basedir=/usr/local/mysql   #安装目录
+                  11.把启动脚本加入系统服务项，并设定开机启动，启动mysql
+                  chkconfig –add mysqld     #添加至系统服务
+                  chkconfig mysqld on        #设置开机启动
+                  chkconfig –list mysqld    #查看开机启动是否设置成功 ”345=on“
+                  service mysqld start       #立刻启动mysqld
+                  netstat -antpl | grep 3306 #查看系统是否监听3306端口
+                  12.设置环境变量
+                  vi /root/.bash_profile
+                  将PATH=$PATH:$HOME/bin改为：
+                  PATH=/usr/local/mysql/bin:$PATH:$HOME/bin
+                  source /root/.bash_profile （重读生效.bash_profile）
+                  13.设置mysql数据库用户名密码
+                  mysqladmin -u root password ‘你的密码’
+                  14.登录mysql
+                  mysql -uroot -p你的密码
+                </div>
+                <div class="panel-footer">作者：尘剑</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--Php-->
+        <div class="tab-pane fade" id="Php">
+          <div class="row" style="margin-top: 15px;">
+            <div class="col-md-12">
+
+              <div class="panel panel-default">
+                <div class="panel-heading">lamp--php安装</div>
+                <div class="panel-body">
+                  1.下载php程序文件到/usr/local/src
+                  cd /usr/local/src
+                  wget ftp://www.ehaomiao.cn/PHP/php-5.4.24.tar.gz
+                  更多的版本大家可以到搜狐镜像网站下载：http://mirrors.sohu.com/php/
+                  2.解压php程序包
+                  cd /usr/local/src
+                  tar -zxvf php-5.4.24.tar.gz
+                  3.安装php依赖程序包
+                  【大家也可以先不安装这些依赖包，看看在安装php的过程中会出现哪些错误，然后根据每一步的错误安装相应的依赖包】
+                  yum install libxml2-devel openssl openssl-devel bzip2 bzip2-devel libpng libpng-devel freetype freetype-devel libjpeg libjpeg-devel -y
+                  除了上述安装的依赖包之外php还需要php-mcrypt  libmcrypt  libmcrypt-devel这三个依赖包
+                  但是在centos6的yum源中没有这三个包，所以我们需要安装第三方yum源，安装方法如下：
+                  下载第三方yum源的设置脚本：
+                  wget http://www.atomicorp.com/installers/atomic
+                  运行该脚本：
+                  sh ./atomic
+                  下载php-mcrypt  libmcrypt  libmcrypt-devel
+                  yum  install  php-mcrypt  libmcrypt  libmcrypt-devel -y
+                  4.执行./configure配置文件检查
+                  cd /usr/local/src/php-5.4.24
+                  ./configure \
+                  –prefix=/usr/local/php \
+                  –with-apxs2=/usr/local/apache/bin/apxs \
+                  –with-config-file-path=/usr/local/php/etc  \
+                  –with-mysql=/usr/local/mysql \
+                  –with-libxml-dir \
+                  –with-gd \
+                  –with-jpeg-dir \
+                  –with-png-dir \
+                  –with-freetype-dir \
+                  –with-iconv-dir \
+                  –with-zlib-dir \
+                  –with-bz2 \
+                  –with-openssl \
+                  –with-mcrypt \
+                  –enable-soap \
+                  –enable-gd-native-ttf \
+                  –enable-mbstring \
+                  –enable-sockets \
+                  –enable-exif \
+                  –disable-ipv6
+                  5.安装php
+                  make && echo $?
+                  最后一行显示为“0” 即为安装正确
+                  make insatll && echo $?
+                  最后一行显示为“0” 即为安装正确
+                  6.拷贝配置文件
+                  默认编译安装的php不会生成配置文件，所以需要我们手动复制一份配置文件到/usr/local/php/etc/下
+                  cd /usr/local/src/php-5.4.24
+                  cp php.ini-production /usr/local/php/etc/php.ini
+                  7.配置apache解析php
+                  默认情况下apache是不会解析php文件的，需要我们修改apache的配置文件
+                  vim /usr/local/apache/conf/httpd.conf
+                  找到
+                  AddType application/x-gzip .gz .tgz
+                  在改行下面添加
+                  AddType application/x-httpd-php .php
+                  再找到
+                  <IfModule dir_module>
+                    DirectoryIndex index.html
+                  </IfModule>
+                  把中间的一行该为
+                  DirectoryIndex index.html index.htm index.php
+                  8.检查apache配置文件正确性
+                  apachectl -t 检查配置
+                  apachectl restart 重启apache
+                  7.添加php测试文件
+                  cd /usr/local/apache/htdocs/
+                  vim 1.php   添加以下三行内容
+                  \<\?php
+                        echo ‘php success’
+                        \?\>
+                  9.测试php解析
+                  curl 127.0.0.1/1.php
+                  显示php success
+                  或者直接在浏览器中输入http://ip/1.php也可以访问
+                </div>
+                <div class="panel-footer">作者：尘剑</div>
+              </div>
+
+              <textarea id="php_comment" name="php_comment" style="height: 190px;">
+
+              </textarea>
+
+            </div>
+          </div>
+        </div>
+
+  <script type="text/javascript">
+  var ue = UE.getEditor('php_comment', {toolbars: [[
+  'fullscreen', 'source', '|', 'undo', 'redo', '|',
+  'bold', 'italic', 'underline', 'fontborder', 'strikethrough', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc', '|',
+  'rowspacingtop', 'rowspacingbottom', 'lineheight', '|',
+  'customstyle', 'paragraph', 'fontfamily', 'fontsize', '|',
+  'directionalityltr', 'directionalityrtl', 'indent', '|',
+  'justifyleft','touppercase', 'tolowercase', '|',
+  'link', 'unlink', 'anchor', '|', 'imagenone', 'imageleft', 'imageright', 'imagecenter', '|',
+  'simpleupload', 'insertimage', 'emotion',
+  'horizontal'
+  ]]});
+  </script>
+
+        <!--Redis-->
+        <div class="tab-pane fade" id="Redis">
+          <div class="row" style="margin-top: 15px;">
+            <div class="col-md-12">
+              <div class="panel panel-default">
+                <div class="panel-heading">redis</div>
+                <div class="panel-body">
+                  操作系统：CentOS
+
+                  php安装目录：/usr/local/php
+
+                  php.ini配置文件路径：/usr/local/php/etc/php.ini
+
+                  Nginx安装目录：/usr/local/nginx
+
+                  Nginx网站根目录：/usr/local/nginx/html
+
+                  系统运维  www.osyunwei.com  温馨提醒：qihang01原创内容 版权所有,转载请注明出处及原文链接
+
+                  1、安装编译工具
+
+                  yum install wget  make gcc gcc-c++ zlib-devel openssl openssl-devel pcre-devel kernel keyutils  patch perl
+
+                  2、安装redis
+
+                  下载：https://github.com/nicolasff/phpredis/archive/2.2.4.tar.gz
+
+                  上传phpredis-2.2.4.tar.gz到/usr/local/src目录
+
+                  cd /usr/local/src #进入软件包存放目录
+
+                  tar zxvf phpredis-2.2.4.tar.gz #解压
+
+                  cd phpredis-2.2.4 #进入安装目录
+
+                  /usr/local/php/bin/phpize #用phpize生成configure配置文件
+
+                  ./configure --with-php-config=/usr/local/php/bin/php-config  #配置
+
+                  make  #编译
+
+                  make install  #安装
+
+                  安装完成之后，出现下面的安装路径
+
+                  /usr/local/php/lib/php/extensions/no-debug-non-zts-20090626/
+
+                  3、配置php支持
+
+                  vi /usr/local/php/etc/php.ini  #编辑配置文件，在最后一行添加以下内容
+
+                  添加
+
+                  extension="redis.so"
+
+                  :wq! #保存退出
+
+                  4、测试
+
+                  vi /usr/local/nginx/html/index.php   #编辑
+
+                  <\?php
+
+                    phpinfo();
+
+                    ?>
+
+                  :wq! #保存退出
+                </div>
+                <div class="panel-footer">作者：尘剑</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--Memcache-->
+        <div class="tab-pane fade" id="Memcache">
+          <div class="row" style="margin-top: 15px;">
+            <div class="col-md-12">
+              <div class="panel panel-default">
+                <div class="panel-heading">memcache</div>
+                <div class="panel-body">
+
+
+                  Linux下的Memcache安装
+                  记录下Memcache安装的过程。
+
+
+
+                  Linux下Memcache服务器端的安装
+                  服务器端主要是安装memcache服务器端，目前的最新版本是 memcached-1.3.0 。
+                  下载：http://www.danga.com/memcached/dist/memcached-1.2.5.tar.gz
+                  另外，Memcache用到了libevent这个库用于Socket的处理，所以还需要安装libevent，libevent的最新版本是libevent-1.3。（如果你的系统已经安装了libevent，可以不用安装）
+                  官网：http://www.monkey.org/~provos/libevent/
+                  下载：http://www.monkey.org/~provos/libevent-1.3.tar.gz
+
+                  用wget指令直接下载这两个东西.下载回源文件后。
+                  1.先安装libevent。这个东西在配置时需要指定一个安装路径，即./configure –prefix=/usr；然后make；然后make install；
+                  2.再安装memcached，只是需要在配置时需要指定libevent的安装路径即./configure –with-libevent=/usr；然后make；然后make install；
+                  这样就完成了Linux下Memcache服务器端的安装。详细的方法如下：
+
+
+                  1.分别把memcached和libevent下载回来，放到 /tmp 目录下：
+                  # cd /tmp
+                  # wget http://www.danga.com/memcached/dist/memcached-1.2.5.tar.gz
+                  # wget http://www.monkey.org/~provos/libevent-1.2.tar.gz
+
+
+
+                  2.先安装libevent：
+                  # tar zxvf libevent-1.2.tar.gz
+                  # cd libevent-1.2
+                  # ./configure –prefix=/usr
+                  # make
+                  # make install
+
+
+
+                  3.测试libevent是否安装成功：
+                  # ls -al /usr/lib | grep libevent
+                  lrwxrwxrwx 1 root root 21 11?? 12 17:38 libevent-1.2.so.1 -> libevent-1.2.so.1.0.3
+                  -rwxr-xr-x 1 root root 263546 11?? 12 17:38 libevent-1.2.so.1.0.3
+                  -rw-r–r– 1 root root 454156 11?? 12 17:38 libevent.a
+                  -rwxr-xr-x 1 root root 811 11?? 12 17:38 libevent.la
+                  lrwxrwxrwx 1 root root 21 11?? 12 17:38 libevent.so -> libevent-1.2.so.1.0.3
+                  还不错，都安装上了。
+
+
+
+                  4.安装memcached，同时需要安装中指定libevent的安装位置：
+                  # cd /tmp
+                  # tar zxvf memcached-1.2.0.tar.gz
+                  # cd memcached-1.2.0
+                  # ./configure –with-libevent=/usr
+                  # make
+                  # make install
+                  如果中间出现报错，请仔细检查错误信息，按照错误信息来配置或者增加相应的库或者路径。
+                  安装完成后会把memcached放到 /usr/local/bin/memcached ，
+
+
+
+                  5.测试是否成功安装memcached：
+                  # ls -al /usr/local/bin/mem*
+                  -rwxr-xr-x 1 root root 137986 11?? 12 17:39 /usr/local/bin/memcached
+                  -rwxr-xr-x 1 root root 140179 11?? 12 17:39 /usr/local/bin/memcached-debug
+
+
+
+                  安装Memcache的PHP扩展
+                  1.在http://pecl.php.net/package/memcache 选择相应想要下载的memcache版本。
+                  2.安装PHP的memcache扩展
+
+                  tar vxzf memcache-2.2.1.tgz
+                  cd memcache-2.2.1
+                  /usr/local/php/bin/phpize
+                  ./configure –enable-memcache –with-php-config=/usr/local/php/bin/php-config –with-zlib-dir
+                  make
+                  make install
+
+                  3.上述安装完后会有类似这样的提示：
+
+                  Installing shared extensions: /usr/local/php/lib/php/extensions/no-debug-non-zts-2007xxxx/
+
+                  4.把php.ini中的extension_dir = “./”修改为
+
+                  extension_dir = “/usr/local/php/lib/php/extensions/no-debug-non-zts-2007xxxx/”
+
+                  5.添加一行来载入memcache扩展：extension=memcache.so
+
+
+
+
+
+                  memcached的基本设置：
+
+                  1.启动Memcache的服务器端：
+                  # /usr/local/bin/memcached -d -m 10 -u root -l 192.168.0.200 -p 12000 -c 256 -P /tmp/memcached.pid
+
+                  -d选项是启动一个守护进程，
+                  -m是分配给Memcache使用的内存数量，单位是MB，我这里是10MB，
+                  -u是运行Memcache的用户，我这里是root，
+                  -l是监听的服务器IP地址，如果有多个地址的话，我这里指定了服务器的IP地址192.168.0.200，
+                  -p是设置Memcache监听的端口，我这里设置了12000，最好是1024以上的端口，
+                  -c选项是最大运行的并发连接数，默认是1024，我这里设置了256，按照你服务器的负载量来设定，
+                  -P是设置保存Memcache的pid文件，我这里是保存在 /tmp/memcached.pid，
+
+
+
+                  2.如果要结束Memcache进程，执行：
+
+                  # kill `cat /tmp/memcached.pid`
+
+                  也可以启动多个守护进程，不过端口不能重复。
+
+
+
+                  3.重启apache，service httpd restart
+
+                  Memcache环境测试：
+                  运行下面的php文件，如果有输出This is a test!，就表示环境搭建成功。开始领略Memcache的魅力把！
+                  < ?php
+                  $mem = new Memcache;
+                  $mem->connect(”127.0.0.1″, 11211);
+                  $mem->set(’key’, ‘This is a test!’, 0, 60);
+                  $val = $mem->get(’key’);
+                  echo $val;
+                  ?>
+                </div>
+                <div class="panel-footer">作者：尘剑</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!--Sphinx-->
+        <div class="tab-pane fade" id="Sphinx">
+          <div class="row" style="margin-top: 15px;">
+            <div class="col-md-12">
+              <div class="panel panel-default">
+                <div class="panel-heading">coreseek</div>
+                <div class="panel-body">
+                  CoreSeek官方网站：
+
+                  http://www.coreseek.cn/
+
+                  http://www.coreseek.cn/products/=%22/products-install/step_by_step/
+
+                  http://www.coreseek.cn/products-install/mysql/
+
+                  具体操作：
+
+                  一、安装编译工具
+
+                  yum install make gcc g++ gcc-c++ libtool autoconf automake imake mysql-devel libxml2-devel expat-devel
+
+                  二 、安装CoreSeek
+
+                  1、下载CoreSeek
+
+                  下载地址：http://www.coreseek.cn/uploads/csft/3.2/coreseek-3.2.14.tar.gz
+
+                  上传coreseek-3.2.14.tar.gz到/usr/local/src目录
+
+                  2、安装mmseg
+
+                  cd /usr/local/src
+
+                  tar zxvf coreseek-3.2.14.tar.gz  #解压
+
+                  cd coreseek-3.2.14
+
+                  cd mmseg-3.2.14
+
+                  ./bootstrap    #输出的warning信息可以忽略，如果出现error则需要解决
+
+                  ./configure --prefix=/usr/local/mmseg3  #配置
+
+                  make  #编译
+
+                  make install  #安装
+
+                  3、安装CoreSeek
+
+                  cd /usr/local/src
+
+                  cd coreseek-3.2.14
+
+                  cd csft-3.2.14
+
+                  sh buildconf.sh    #输出的warning信息可以忽略，如果出现error则需要解决
+
+                  ./configure --prefix=/usr/local/coreseek  --without-unixodbc --with-mmseg --with-mmseg-includes=/usr/local/mmseg3/include/mmseg/ --with-mmseg-libs=/usr/local/mmseg3/lib/ --with-mysql  #配置
+
+                  make  #编译
+
+                  make install  #安装
+
+                  三、测试mmseg分词、coreseek搜索、MySQL数据源
+
+                  cd /usr/local/src
+
+                  cd coreseek-3.2.14
+
+                  cd testpack
+
+                  cat /usr/local/src/coreseek-3.2.14/testpack/var/test/test.xml    #此时应该正确显示中文，如下图所示
+
+                  /usr/local/mmseg3/bin/mmseg  -d  /usr/local/mmseg3/etc  /usr/local/src/coreseek-3.2.14/testpack/var/test/test.xml
+
+                  系统运维  www.osyunwei.com  温馨提醒：qihang01原创内容 版权所有,转载请注明出处及原文链接
+
+                  /usr/local/coreseek/bin/indexer -c /usr/local/src/coreseek-3.2.14/testpack/etc/csft.conf --all
+
+                  /usr/local/coreseek/bin/search -c /usr/local/src/coreseek-3.2.14/testpack/etc/csft.conf 网络搜索
+
+                  /usr/local/coreseek/bin/indexer -c /usr/local/coreseek/etc/sphinx-min.conf.dist
+
+                  /usr/local/coreseek/bin/indexer -c /usr/local/src/coreseek-3.2.14/testpack/etc/csft.conf --all --rotate  #启动服务，更新索引
+
+                  测试MySQL数据源：
+
+                  测试数据库下载：http://www.coreseek.cn/uploads/csft/test/documents.sql
+
+                  上传documents.sql到/usr/local/src目录
+
+                  导入数据库到MySQL从服务器：
+
+                  mysql  -u root -p  #进入MySQL控制台
+
+                  create database documents;   #创建数据库
+
+                  use documents    #进入数据库
+
+                  source  /usr/local/src/documents.sql  #导入备份文件到数据库
+
+                  exit #退出MySQL控制台
+
+                  cp  /usr/local/src/coreseek-3.2.14/testpack/etc/csft_mysql.conf  /usr/local/coreseek/etc/csft_mysql.conf  #拷贝MySQL数据源配置文件
+
+                  ln -s  /usr/local/coreseek/etc/csft_mysql.conf  /etc/csft_mysql.conf  #添加软连接
+
+                  vi  /etc/csft_mysql.conf  #编辑，修改
+
+                  ###############################################################################
+
+                  #MySQL数据源配置，详情请查看：http://www.coreseek.cn/products-install/mysql/
+
+                  #请先将var/test/documents.sql导入数据库，并配置好以下的MySQL用户密码数据库
+
+                  #源定义
+
+                  source mysql
+
+                  {
+
+                  type                    = mysql
+
+                  sql_host                = localhost
+
+                  sql_user                = root  #账号
+
+                  sql_pass                =123456 #密码
+
+                  sql_db                    = documents  #MySQL数据库名称
+
+                  sql_port                = 3306
+
+                  sql_query_pre            = SET NAMES utf8
+
+                  sql_query                = SELECT id, group_id, UNIX_TIMESTAMP(date_added) AS date_added, title, content FROM documents
+
+                  #sql_query第一列id需为整数
+
+                  #title、content作为字符串/文本字段，被全文索引
+
+                  sql_attr_uint            = group_id           #从SQL读取到的值必须为整数
+
+                  sql_attr_timestamp        = date_added #从SQL读取到的值必须为整数，作为时间属性
+
+                  sql_query_info_pre      = SET NAMES utf8                                        #命令行查询时，设置正确的字符集
+
+                  sql_query_info            = SELECT * FROM documents WHERE id=$id #命令行查询时，从数据库读取原始数据信息
+
+                  }
+
+                  #index定义
+
+                  index mysql
+
+                  {
+
+                  source            = mysql             #对应的source名称
+
+                  path            = /usr/local/coreseek/var/data/mysql #请修改为实际使用的绝对路径，例如：/usr/local/coreseek/var/...
+
+                  docinfo            = extern
+
+                  mlock            = 0
+
+                  morphology        = none
+
+                  min_word_len        = 1
+
+                  html_strip                = 0
+
+                  #中文分词配置，详情请查看：http://www.coreseek.cn/products-install/coreseek_mmseg/
+
+                  charset_dictpath = /usr/local/mmseg3/etc/ #BSD、Linux环境下设置，/符号结尾
+
+                  #charset_dictpath = etc/                             #Windows环境下设置，/符号结尾，最好给出绝对路径，例如：C:/usr/local/coreseek/etc/...
+
+                  charset_type        = zh_cn.utf-8
+
+                  }
+
+                  #全局index定义
+
+                  indexer
+
+                  {
+
+                  mem_limit            = 1024M  #内存使用限制
+
+                  max_iops = 100
+
+                  max_iosize = 0
+
+                  }
+
+                  #searchd服务定义
+
+                  searchd
+
+                  {
+
+                  listen                  =   9312
+
+                  read_timeout        = 5
+
+                  max_children        = 30
+
+                  max_matches            = 1000
+
+                  seamless_rotate        = 0
+
+                  preopen_indexes        = 0
+
+                  unlink_old            = 1
+
+                  pid_file = /usr/local/coreseek/var/log/searchd_mysql.pid  #请修改为实际使用的绝对路径，例如：/usr/local/coreseek/var/...
+
+                  log =/usr/local/coreseek/var/log/searchd_mysql.log        #请修改为实际使用的绝对路径，例如：/usr/local/coreseek/var/...
+
+                  query_log =/usr/local/coreseek/var/log/query_mysql.log #请修改为实际使用的绝对路径，例如：/usr/local/coreseek/var/...
+
+                  }
+
+                  #################################################################################
+
+                  :wq!  #保存退出
+
+                  cp  /usr/local/src/coreseek-3.2.14/testpack/api/sphinxapi.php  /usr/local/nginx/html/sphinxapi.php  #拷贝测试文件到web站点根目录下
+
+                  cp  /usr/local/src/coreseek-3.2.14/testpack/api/test_coreseek.php  /usr/local/nginx/html/test_coreseek.php  #拷贝测试文件到web站点根目录下
+
+                  cd /usr/local/nginx/html  #进入web站点根目录
+
+                  vi test.php  #编辑，添加以下代码
+
+                  #################################################################################
+
+                  <\?php
+
+                //注意文件的编码格式需要保存为为UTF-8格式
+
+                require ( "sphinxapi.php" );
+
+                $cl = new SphinxClient ();
+
+                $cl->SetServer ( '127.0.0.1', 9312);
+
+                  //以下设置用于返回数组形式的结果
+
+                  $cl->SetArrayResult ( true );
+
+                  /*
+
+                  //ID的过滤
+
+                  $cl->SetIDRange(3,4);
+
+                  //sql_attr_uint等类型的属性字段，需要使用setFilter过滤，类似SQL的WHERE group_id=2
+
+                  $cl->setFilter('group_id',array(2));
+
+                  //sql_attr_uint等类型的属性字段，也可以设置过滤范围，类似SQL的WHERE group_id2>=6 AND group_id2<=8
+
+                  $cl->SetFilterRange('group_id2',6,8);
+
+                  */
+
+                  //取从头开始的前20条数据，0,20类似SQl语句的LIMIT 0,20
+
+                  $cl->SetLimits(0,20);
+
+                  //在做索引时，没有进行 sql_attr_类型 设置的字段，可以作为“搜索字符串”，进行全文搜索
+
+                  $res = $cl->Query ( '搜索字符串', "*" );    //"*"表示在所有索引里面同时搜索，"索引名称（例如test或者test,test2）"则表示搜索指定的
+
+                  //如果需要搜索指定全文字段的内容，可以使用扩展匹配模式：
+
+                  //$cl->SetMatchMode(SPH_MATCH_EXTENDED);
+
+                  //$res=cl->Query( '@title (测试)' , "*");
+
+                  //$res=cl->Query( '@title (测试) @content ('网络')' , "*");
+
+                  echo '<pre>';
+
+              print_r($res['matches']);
+
+              print_r($res);
+
+              print_r($cl->GetLastError());
+
+              print_r($cl->GetLastWarning());
+
+              echo '</pre>';
+
+                  ?>
+
+                  ###############################################################################
+
+                  :wq!  #保存退出
+
+                  /usr/local/coreseek/bin/indexer -c /usr/local/coreseek/etc/csft_mysql.conf --all --rotate  #建立索引服务
+
+                  /usr/local/coreseek/bin/searchd -c /usr/local/coreseek/etc/csft_mysql.conf --console  #启动测试模式
+
+                  /usr/local/coreseek/bin/searchd -c /usr/local/coreseek/etc/csft_mysql.conf   #后台启动模式
+
+                  /usr/local/coreseek/bin/searchd -c /usr/local/coreseek/etc/csft_mysql.conf  --stop  #停止
+
+                  /usr/local/coreseek/bin/indexer -c /usr/local/coreseek/etc/csft_mysql.conf --all --rotate  #更新索引服务
+
+                  打开浏览器测试：如下图所示
+
+                  http://192.168.21.127/test.php
+
+                  系统运维  www.osyunwei.com  温馨提醒：qihang01原创内容 版权所有,转载请注明出处及原文链接
+
+                  http://192.168.21.127/test_coreseek.php
+
+                  四、设置coreseek开机自动后台运行
+
+                  vi /etc/rc.d/rc.local #编辑，在最后一行添加下面的代码
+
+                  /usr/local/coreseek/bin/searchd -c /usr/local/coreseek/etc/csft_mysql.conf
+
+                  :wq!  #保存退出
+
+                  vi /usr/local/coreseek/bin/build_index.sh  #添加以下更新索引脚本
+
+                  #!/bin/sh
+
+                  /usr/local/coreseek/bin/indexer -c /usr/local/coreseek/etc/csft_mysql.conf --all --rotate
+
+                  :wq!  #保存退出
+
+                  chmod +x /usr/local/coreseek/bin/build_index.sh  #添加脚本执行权限
+
+                  vi /etc/crontab    #编辑，在最后一行添加以下代码
+
+                  */30 * * * * root /usr/local/coreseek/bin/build_index.sh  #每隔30分钟执行一次
+
+                  :wq!  #保存退出
+
+                  service crond reload  #重新加载任务计划
+
+                  至此，Linux下PHP+MySQL+CoreSeek中文检索引擎配置完成。
+                </div>
+                <div class="panel-footer">作者：尘剑</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-md-3" style="border: 1px solid #cccccc">
+      <h4 class="text-warning">每日回顾</h4>
+      <hr />
+      <p class="text-info"> 三人行，必有吾师焉！</p>
+    </div>
+  </div>
+  <!--linux右侧第二列end-->
+
+</div>
+<!--右侧总页面结束-->
+
+</div>
+</div>
+<!--总页面结束-->

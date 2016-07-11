@@ -1,0 +1,147 @@
+<!--右侧总页面开始-->
+<div class="col-md-10">
+
+  <div class="row">
+    <div class="col-md-6">
+      <form id="member_form" role="form" method="post" action="__SELF__" enctype="multipart/form-data">
+        <div class="form-group" >
+          <label for="exampleInputNickName">昵称：</label>
+          <input type="text" class="form-control" name="nick_name" id="exampleInputNickName" placeholder="请输入您的昵称"
+          <notempty name="data.nick_name">value="<{$data.nick_name}>"</notempty> >
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPhone">联系方式(QQ,微信):</label>
+          <input type="text" class="form-control" name="mobile" id="exampleInputPhone" placeholder="请输入您的联系方式"
+          <notempty name="data.mobile">value="<{$data.mobile}>"</notempty> >
+        </div>
+        <div class="form-group">
+          <label>性别:</label>
+          <select class="form-control" name="sex">
+            <option value="1" <eq name="data.sex" value="1"> selected="selected"</eq> >男</option>
+            <option value="2"  <eq name="data.sex" value="2"> selected="selected"</eq> >女</option>
+            <option value="3"  <eq name="data.sex" value="3"> selected="selected"</eq> >保密</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>地址:</label>
+          <div class="row">
+            <div class="col-md-4">
+              <select class="form-control" id="province" name="province" onchange="select_city()">
+                <option value="0" id="province_option">请选择省份</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <select class="form-control" id="city" name="city" onchange="select_area()">
+                <option value="0">请选择市区</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <select class="form-control" id="area" name="area">
+                <option value="0">请选择县区</option>
+              </select>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="form-group">
+          <label for="exampleInputJob">工作行业:</label>
+          <input type="text" class="form-control" name="job" id="exampleInputJob" placeholder="请输入您的工作"
+          <notempty name="data.job">value="<{$data.job}>"</notempty> >
+        </div>
+        <div class="form-group">
+          <label for="exampleInputImg">照片:</label>
+          <input type="file" class="form-control" id="exampleInputImg" name="user_logo">
+        </div>
+        <div class="form-group" id="div_user_logo">
+          <img  class="img-circle" id="img_user_logo" style="width: 120px;height: 120px;"
+          <notempty name="data.user_small_logo">src="<{:C('SITE_URL')}><{$data.user_small_logo|substr=###,2}>"</notempty> >
+        </div>
+        <div class="form-group">
+          <div class="text-right"><button type="submit" class="btn btn-info">提交</button>
+            <button type="reset" class="btn btn-info" id="resetBtn">重新填写</button></div>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-6">
+
+    </div>
+
+
+
+  </div>
+</div>
+<!--右侧总页面结束-->
+
+</div>
+</div>
+<script src="<{:C('JS_URL')}>form/uploadPreview.js" type="text/javascript"></script>
+<!--选中图片立即显示-->
+<script type="text/javascript">
+  $(function(){
+    new uploadPreview({ UpBtn: "exampleInputImg", DivShow: "div_user_logo", ImgShow: "img_user_logo" });
+  });
+</script>
+<!--总页面结束-->
+<script src="<{:C('JS_URL')}>form/member.js" type="text/javascript"></script>
+
+<!--省市区三级联动-->
+<script type="text/javascript">
+
+  $(function () {
+
+    $.ajax({
+      url:'__MODULE__-User-province',
+      dataType:'json',
+      success:function (data) {
+        var str = '';
+        $.each(data,function (index, value) {
+          str += '<option value="'+value.code+'">'+value.name+'</option>';
+        })
+        $('#province').html('');
+        $('#province').append(str);
+        select_city();
+      }
+    });
+  });
+
+  function select_city() {
+
+    var code=$('#province option:selected').val();
+    $.ajax({
+      url:'__MODULE__-User-city',
+      data:{'provincecode':code,},
+      dataType:'json',
+      success:function (data) {
+        var str = '';
+        $.each(data,function (index, value) {
+          str += '<option value="'+value.code+'">'+value.name+'</option>';
+        })
+        $('#area').html('');
+        $('#city').html('');
+        $('#city').append(str);
+        select_area();
+      }
+    });
+  }
+
+  function select_area() {
+
+    var code=$('#city option:selected').val();
+    $.ajax({
+      url:'__MODULE__-User-area',
+      dataType:'json',
+      data:{'citycode':code},
+      success:function (data) {
+        var str = '';
+        $.each(data,function (index, value) {
+          console.log(value);
+          str += '<option value="'+value.code+'">'+value.name+'</option>';
+        })
+        $('#area').html('');
+        $('#area').append(str);
+      }
+    });
+  }
+</script>

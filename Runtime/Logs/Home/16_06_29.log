@@ -1,0 +1,720 @@
+[ 2016-06-29T08:20:59+08:00 ] 127.0.0.1 /css/bootstrap.min.css
+ERR: 无法加载控制器:Css
+
+[ 2016-06-29T08:20:59+08:00 ] 127.0.0.1 /css/nprogress.css
+ERR: 无法加载控制器:Css
+
+[ 2016-06-29T08:20:59+08:00 ] 127.0.0.1 /css/style.css
+ERR: 无法加载控制器:Css
+
+[ 2016-06-29T08:20:59+08:00 ] 127.0.0.1 /js/jquery-2.1.4.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-06-29T08:20:59+08:00 ] 127.0.0.1 /js/nprogress.js
+ERR: 无法加载控制器:Js
+
+[ 2016-06-29T08:20:59+08:00 ] 127.0.0.1 /js/bootstrap.min.js
+ERR: 无法加载控制器:Js
+
+[ 2016-06-29T09:21:36+08:00 ] 127.0.0.1 /search.php
+ERR: 无法加载控制器:Search.php
+
+[ 2016-06-29T10:04:14+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001939s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:14+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:41+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:41+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:42+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:43+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:43+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:43+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:43+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001582s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:43+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:43+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:43+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:44+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002668s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:44+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002704s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:44+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:46+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:46+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:47+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:47+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001603s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:47+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:48+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:48+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:48+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:48+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004386s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:49+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:49+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:50+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:51+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:51+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002627s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:52+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001939s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:52+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:53+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:53+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:56+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:56+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:56+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002342s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:57+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:57+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002340s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:57+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001589s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:57+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002030s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:58+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:58+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:58+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:58+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:58+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001781s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:58+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:58+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004422s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:04:58+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:09+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002730s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:09+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002596s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:09+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:10+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:10+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:10+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:10+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:10+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:10+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:05:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001422s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:06:10+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002671s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:06:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001629s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:06:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:06:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001880s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:06:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002061s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:06:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003911s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:06:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:06:12+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002124s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:11:47+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003970s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:11:47+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:11:48+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:11:48+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:11:48+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:11:48+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:15:55+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001835s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:15:55+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:15:55+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:15:56+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:15:56+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:15:56+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:17:10+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:17:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:17:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:17:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:17:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:17:11+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:17:12+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002083s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:17:12+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:20:58+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:20:58+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:20:58+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002499s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:20:59+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001559s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:00+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:00+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:01+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:05+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:05+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:05+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002637s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:05+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:17+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:29+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002607s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:33+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:33+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:35+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:36+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:37+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:37+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001866s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:21:37+08:00 ] 127.0.0.1 /remote.php
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+ERR: 无法加载控制器:Remote.php
+
+[ 2016-06-29T10:58:13+08:00 ] 127.0.0.1 /Public/Home/js/bootstrapValidator.min.js
+ERR: 无法加载控制器:Public
+

@@ -1,0 +1,2576 @@
+[ 2016-07-06T08:32:46+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0140s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('sdfsfsdfsdfsfsdf','1467765164') [ RunTime:0.1160s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-07-06T08:39:54+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002014s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0148s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('eeetretert','1467765593') [ RunTime:0.0803s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2016-07-06T08:40:02+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0138s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('eeetretertertetet','1467765600') [ RunTime:0.1595s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-07-06T08:40:25+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0179s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('eeetreterterteteterterter<img src=\"http://img.baidu.com/hi/jx2/j_0015.gif\" alt=\"j_0015.gif\" />','1467765624') [ RunTime:0.0903s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-07-06T08:40:43+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003040s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0146s ]
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'comment' at row 1
+
+[ 2016-07-06T08:41:34+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0154s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('年后','1467765693') [ RunTime:0.1632s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-06T08:41:44+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0172s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('年后作者你好啊','1467765703') [ RunTime:0.0589s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-06T08:41:53+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0143s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('年后作者你好啊<img src=\"http://img.baidu.com/hi/jx2/j_0026.gif\" alt=\"j_0026.gif\" />','1467765712') [ RunTime:0.2545s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-06T09:18:14+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001942s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0095s ]
+
+[ 2016-07-06T09:18:15+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0144s ]
+
+[ 2016-07-06T09:18:16+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001683s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0827s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.1594s ]
+
+[ 2016-07-06T09:18:19+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=220000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0569s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '220000'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T09:18:20+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=220100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0637s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '220100'  [ RunTime:0.0015s ]
+
+[ 2016-07-06T09:18:21+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=220600
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001745s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '220600'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T09:18:48+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001999s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0008s ]
+
+[ 2016-07-06T09:18:49+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001657s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0517s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0010s ]
+
+[ 2016-07-06T09:18:50+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001836s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0637s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0044s ]
+
+[ 2016-07-06T09:20:26+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007653s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T09:20:27+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004104s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T09:20:28+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002935s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0018s ]
+
+[ 2016-07-06T09:22:46+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007845s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0006s ]
+
+[ 2016-07-06T09:22:47+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003268s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0004s ]
+
+[ 2016-07-06T09:22:48+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002629s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0601s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0029s ]
+
+[ 2016-07-06T09:22:59+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007201s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T09:23:00+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003040s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0567s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T09:23:01+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002706s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T09:23:29+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004040s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T09:23:30+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002640s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0007s ]
+
+[ 2016-07-06T09:23:31+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002456s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0600s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T09:29:36+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003862s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T09:29:37+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0544s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0009s ]
+
+[ 2016-07-06T09:29:39+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0567s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0013s ]
+
+[ 2016-07-06T09:36:58+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002554s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T09:36:59+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0576s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0007s ]
+
+[ 2016-07-06T09:37:00+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001735s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0599s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0018s ]
+
+[ 2016-07-06T09:43:44+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003629s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0011s ]
+
+[ 2016-07-06T09:43:46+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0513s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0008s ]
+
+[ 2016-07-06T09:43:47+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0504s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T09:45:07+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018046s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0008s ]
+
+[ 2016-07-06T09:45:08+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0007s ]
+
+[ 2016-07-06T09:45:09+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002383s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0584s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T10:02:41+08:00 ] 127.0.0.1 /index.php/User/userinfo.html
+ERR: syntax error, unexpected ')'
+
+[ 2016-07-06T10:02:48+08:00 ] 127.0.0.1 /index.php/User/userinfo.html
+ERR: syntax error, unexpected ')'
+
+[ 2016-07-06T10:03:09+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003555s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:03:11+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002160s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0010s ]
+
+[ 2016-07-06T10:03:12+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002437s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T10:03:18+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=410000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002410s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '410000'  [ RunTime:0.0007s ]
+
+[ 2016-07-06T10:03:19+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=410100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '410100'  [ RunTime:0.0016s ]
+
+[ 2016-07-06T10:03:21+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=410500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1781s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '410500'  [ RunTime:0.0014s ]
+
+[ 2016-07-06T10:03:59+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002919s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-06T10:04:00+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0581s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0009s ]
+
+[ 2016-07-06T10:04:01+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004118s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T10:04:04+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=370000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0768s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '370000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:04:05+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=370100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0543s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '370100'  [ RunTime:0.0017s ]
+
+[ 2016-07-06T10:04:07+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=370700
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003691s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1442s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '370700'  [ RunTime:0.0035s ]
+
+[ 2016-07-06T10:12:59+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:13:01+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0010s ]
+
+[ 2016-07-06T10:13:02+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005779s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0013s ]
+
+[ 2016-07-06T10:13:03+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002402s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0506s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0013s ]
+
+[ 2016-07-06T10:13:05+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1157s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0040s ]
+
+[ 2016-07-06T10:13:11+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=420000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '420000'  [ RunTime:0.0015s ]
+
+[ 2016-07-06T10:13:12+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=420100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002635s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '420100'  [ RunTime:0.0013s ]
+
+[ 2016-07-06T10:13:14+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=420600
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015436s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '420600'  [ RunTime:0.0037s ]
+
+[ 2016-07-06T10:13:20+08:00 ] 127.0.0.1 /index.php/User/userinfo.html
+ERR: SQLSTATE[HY000]: General error: 1364 Field 'user_name' doesn't have a default value
+
+[ 2016-07-06T10:13:38+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002072s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:13:40+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0678s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0018s ]
+
+[ 2016-07-06T10:13:41+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0012s ]
+
+[ 2016-07-06T10:13:42+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0013s ]
+
+[ 2016-07-06T10:13:43+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0510s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T10:13:49+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=440000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '440000'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T10:13:50+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=440100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0632s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '440100'  [ RunTime:0.0033s ]
+
+[ 2016-07-06T10:13:52+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=441500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002228s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '441500'  [ RunTime:0.0010s ]
+
+[ 2016-07-06T10:13:57+08:00 ] 127.0.0.1 /index.php/User/userinfo.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `user_id` = 7' at line 1
+
+[ 2016-07-06T10:18:15+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002585s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0008s ]
+
+[ 2016-07-06T10:18:16+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0013s ]
+
+[ 2016-07-06T10:18:17+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0569s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0013s ]
+
+[ 2016-07-06T10:18:53+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=420000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '420000'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T10:18:55+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=420100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '420100'  [ RunTime:0.0014s ]
+
+[ 2016-07-06T10:18:56+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=420200
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001731s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1407s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '420200'  [ RunTime:0.0032s ]
+
+[ 2016-07-06T10:19:00+08:00 ] 127.0.0.1 /index.php/User/userinfo.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `user_id` = 7' at line 1
+
+[ 2016-07-06T10:24:12+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003860s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.1638s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0020s ]
+
+[ 2016-07-06T10:24:13+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002076s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0006s ]
+
+[ 2016-07-06T10:24:15+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001491s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T10:24:16+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=410000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.1239s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '410000'  [ RunTime:0.0006s ]
+
+[ 2016-07-06T10:24:17+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=410100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '410100'  [ RunTime:0.0013s ]
+
+[ 2016-07-06T10:24:19+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=410300
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002960s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0571s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '410300'  [ RunTime:0.0014s ]
+
+[ 2016-07-06T10:24:22+08:00 ] 127.0.0.1 /index.php/User/userinfo.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `user_id` = 7' at line 1
+
+[ 2016-07-06T10:26:21+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005585s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0006s ]
+
+[ 2016-07-06T10:26:22+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0599s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0007s ]
+
+[ 2016-07-06T10:26:23+08:00 ] 127.0.0.1 /index.php/User/userinfo.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `user_id` = 7' at line 1
+
+[ 2016-07-06T10:26:24+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001541s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T10:27:08+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004567s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:27:09+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002360s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0016s ]
+
+[ 2016-07-06T10:27:10+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002511s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0301s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0019s ]
+
+[ 2016-07-06T10:27:14+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=370000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0630s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '370000'  [ RunTime:0.0016s ]
+
+[ 2016-07-06T10:27:15+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=370100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002619s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0771s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '370100'  [ RunTime:0.0018s ]
+
+[ 2016-07-06T10:27:20+08:00 ] 127.0.0.1 /index.php/User/userinfo.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `user_id` = 7' at line 1
+
+[ 2016-07-06T10:28:25+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003291s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0008s ]
+
+[ 2016-07-06T10:28:26+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002399s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0500s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:28:27+08:00 ] 127.0.0.1 /index.php/User/userinfo.html
+ERR: Think\Controller:_sql方法不存在！
+
+[ 2016-07-06T10:28:28+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002594s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T10:28:31+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002723s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0541s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0006s ]
+
+[ 2016-07-06T10:28:32+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002018s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0692s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0010s ]
+
+[ 2016-07-06T10:28:33+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004678s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0014s ]
+
+[ 2016-07-06T10:28:57+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=350000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '350000'  [ RunTime:0.0016s ]
+
+[ 2016-07-06T10:28:58+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=350100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001482s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0571s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '350100'  [ RunTime:0.0020s ]
+
+[ 2016-07-06T10:29:00+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=350300
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0592s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '350300'  [ RunTime:0.0015s ]
+
+[ 2016-07-06T10:29:06+08:00 ] 127.0.0.1 /index.php/User/userinfo.html
+ERR: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'address' at row 1
+
+[ 2016-07-06T10:29:28+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002704s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0007s ]
+
+[ 2016-07-06T10:29:29+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0622s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:29:30+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0019s ]
+
+[ 2016-07-06T10:29:31+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=230000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002161s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.1555s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '230000'  [ RunTime:0.0015s ]
+
+[ 2016-07-06T10:29:32+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=230100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '230100'  [ RunTime:0.0023s ]
+
+[ 2016-07-06T10:29:34+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=230600
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002168s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '230600'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T10:31:37+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003076s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0017s ]
+
+[ 2016-07-06T10:31:38+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:31:39+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003647s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0617s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0016s ]
+
+[ 2016-07-06T10:31:51+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=230000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '230000'  [ RunTime:0.0007s ]
+
+[ 2016-07-06T10:31:53+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=230100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0692s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '230100'  [ RunTime:0.0041s ]
+
+[ 2016-07-06T10:31:54+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=230300
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0664s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '230300'  [ RunTime:0.0013s ]
+
+[ 2016-07-06T10:33:39+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007792s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:33:40+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0006s ]
+
+[ 2016-07-06T10:33:41+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002717s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T10:33:54+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=360000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002725s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0576s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '360000'  [ RunTime:0.0010s ]
+
+[ 2016-07-06T10:33:55+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=360100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002450s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1034s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '360100'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T10:33:56+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=360400
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002189s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0512s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '360400'  [ RunTime:0.0015s ]
+
+[ 2016-07-06T10:34:59+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-06T10:35:00+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002727s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T10:35:01+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004252s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0577s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0013s ]
+
+[ 2016-07-06T10:39:01+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-06T10:39:02+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002616s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0598s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:39:06+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002582s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-06T10:39:07+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002985s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:39:08+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0019s ]
+
+[ 2016-07-06T10:41:24+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007531s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-06T10:41:25+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0569s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0007s ]
+
+[ 2016-07-06T10:41:27+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002522s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0582s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0017s ]
+
+[ 2016-07-06T10:41:42+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003574s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0008s ]
+
+[ 2016-07-06T10:41:43+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002457s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0534s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0008s ]
+
+[ 2016-07-06T10:41:44+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002618s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0013s ]
+
+[ 2016-07-06T10:41:59+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004342s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0006s ]
+
+[ 2016-07-06T10:42:01+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002655s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0613s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0031s ]
+
+[ 2016-07-06T10:42:02+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0544s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0017s ]
+
+[ 2016-07-06T10:42:43+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011570s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:42:44+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002445s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0581s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:42:45+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002805s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0033s ]
+
+[ 2016-07-06T10:45:36+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006759s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:45:37+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002639s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0593s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:45:38+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002809s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1267s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T10:46:00+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006189s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0009s ]
+
+[ 2016-07-06T10:46:01+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002980s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0537s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0007s ]
+
+[ 2016-07-06T10:46:02+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003700s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T10:48:29+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003276s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0006s ]
+
+[ 2016-07-06T10:48:31+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0542s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:48:32+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0553s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0014s ]
+
+[ 2016-07-06T10:48:47+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005356s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-06T10:48:48+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002561s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0008s ]
+
+[ 2016-07-06T10:48:49+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002518s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0211s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0034s ]
+
+[ 2016-07-06T10:49:05+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005792s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0007s ]
+
+[ 2016-07-06T10:49:06+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003516s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0621s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0007s ]
+
+[ 2016-07-06T10:49:07+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002640s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0556s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0019s ]
+
+[ 2016-07-06T10:51:00+08:00 ] 127.0.0.1 /index.php/User/Public/Uploads/2016-07-06/thumb_577c6e22b244a.jpeg
+ERR: 非法操作:Public
+
+[ 2016-07-06T10:51:02+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009518s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0008s ]
+
+[ 2016-07-06T10:51:03+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002581s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0592s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0010s ]
+
+[ 2016-07-06T10:51:04+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002649s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0553s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0020s ]
+
+[ 2016-07-06T10:51:52+08:00 ] 127.0.0.1 /index.php/User/Public/Uploads/2016-07-06/thumb_577c6e22b244a.jpeg
+ERR: 非法操作:Public
+
+[ 2016-07-06T10:51:53+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003737s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0007s ]
+
+[ 2016-07-06T10:51:54+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002440s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:51:55+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002806s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0525s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T10:52:07+08:00 ] 127.0.0.1 /index.php/User/Public/Uploads/2016-07-06/thumb_577c6e22b244a.jpeg
+ERR: 非法操作:Public
+
+[ 2016-07-06T10:52:08+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003795s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0006s ]
+
+[ 2016-07-06T10:52:10+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002468s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0014s ]
+
+[ 2016-07-06T10:52:11+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003950s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0014s ]
+
+[ 2016-07-06T10:53:18+08:00 ] 127.0.0.1 /index.php/User/Public/Uploads/2016-07-06/thumb_577c6e22b244a.jpeg
+ERR: 非法操作:Public
+
+[ 2016-07-06T10:54:19+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003344s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.1846s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:54:20+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0276s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:54:22+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0018s ]
+
+[ 2016-07-06T10:54:57+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004379s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0006s ]
+
+[ 2016-07-06T10:54:58+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002976s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0551s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:54:59+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0605s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T10:56:40+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007735s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:56:41+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003221s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0007s ]
+
+[ 2016-07-06T10:56:42+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003990s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0017s ]
+
+[ 2016-07-06T10:56:48+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006559s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0014s ]
+
+[ 2016-07-06T10:56:49+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002841s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0006s ]
+
+[ 2016-07-06T10:56:51+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002459s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0661s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0034s ]
+
+[ 2016-07-06T10:58:00+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005373s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:58:01+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002799s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0007s ]
+
+[ 2016-07-06T10:58:02+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002519s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0625s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0016s ]
+
+[ 2016-07-06T10:59:27+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004173s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:59:28+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002955s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0004s ]
+
+[ 2016-07-06T10:59:29+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003478s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0559s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T10:59:55+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004268s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:59:56+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0507s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-06T10:59:57+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1125s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T11:06:41+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009574s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0492s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0010s ]
+
+[ 2016-07-06T11:06:42+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002504s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0615s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0006s ]
+
+[ 2016-07-06T11:06:43+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002566s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0568s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0020s ]
+
+[ 2016-07-06T11:09:53+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003810s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T11:09:54+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0006s ]
+
+[ 2016-07-06T11:09:56+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0631s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0032s ]
+
+[ 2016-07-06T11:38:16+08:00 ] 127.0.0.1 /index.php/Linux/setup.html
+ERR: 非法操作:setup
+
+[ 2016-07-06T11:38:49+08:00 ] 127.0.0.1 /index.php/Linux/setup.html
+ERR: 非法操作:setup
+
+[ 2016-07-06T11:38:50+08:00 ] 127.0.0.1 /index.php/Linux/setup.html
+ERR: 非法操作:setup
+
+[ 2016-07-06T13:57:34+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001566s ]
+
+[ 2016-07-06T13:57:37+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2016-07-06T13:57:38+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2016-07-06T13:57:39+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2016-07-06T13:57:41+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2016-07-06T13:57:42+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2016-07-06T13:57:42+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001679s ]
+
+[ 2016-07-06T13:57:43+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2016-07-06T13:57:43+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2016-07-06T13:57:44+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2016-07-06T13:58:10+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002061s ]
+
+[ 2016-07-06T13:58:12+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001124s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-07-06T13:58:12+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2016-07-06T13:58:13+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2016-07-06T14:00:31+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001659s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0011s ]
+
+[ 2016-07-06T14:00:40+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0576s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:00:56+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002084s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:00:59+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:01:02+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:02:23+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:02:27+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.1763s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0010s ]
+
+[ 2016-07-06T14:02:35+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0010s ]
+
+[ 2016-07-06T14:02:37+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 6,2   [ RunTime:0.0003s ]
+
+[ 2016-07-06T14:02:38+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:02:39+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:02:40+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-07-06T14:02:41+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:02:42+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0003s ]
+
+[ 2016-07-06T14:03:51+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0008s ]
+
+[ 2016-07-06T14:04:21+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:04:24+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:04:26+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:04:28+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 6,2   [ RunTime:0.0007s ]
+
+[ 2016-07-06T14:04:30+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0006s ]
+
+[ 2016-07-06T14:04:32+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:05:41+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003040s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0010s ]
+
+[ 2016-07-06T14:05:46+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:05:49+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0010s ]
+
+[ 2016-07-06T14:05:50+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 6,2   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:06:58+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003179s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-07-06T14:07:01+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0003s ]
+
+[ 2016-07-06T14:07:06+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0007s ]
+
+[ 2016-07-06T14:07:29+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003458s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0006s ]
+
+[ 2016-07-06T14:08:03+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004611s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.1809s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0007s ]
+
+[ 2016-07-06T14:08:05+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:08:09+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:08:11+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 6,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:08:21+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001773s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0111s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('你好啊 作者','1467785300') [ RunTime:0.2143s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:08:25+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:08:29+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:08:45+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0181s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('你坏啊 作者','1467785324') [ RunTime:0.1185s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-07-06T14:08:51+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0011s ]
+
+[ 2016-07-06T14:08:52+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0006s ]
+
+[ 2016-07-06T14:09:19+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0077s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('作者在测试啊','1467785358') [ RunTime:0.1547s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 10 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:09:53+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002553s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:09:59+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0154s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('再试试啊','1467785398') [ RunTime:0.0995s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-07-06T14:10:21+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0012s ]
+
+[ 2016-07-06T14:11:59+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002283s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:12:04+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002748s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0007s ]
+
+[ 2016-07-06T14:12:59+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002675s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-07-06T14:13:04+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:13:20+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002072s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0010s ]
+
+[ 2016-07-06T14:13:28+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:13:30+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0010s ]
+
+[ 2016-07-06T14:13:33+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 6,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:14:09+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002359s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0010s ]
+
+[ 2016-07-06T14:15:41+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002297s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:15:44+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0011s ]
+
+[ 2016-07-06T14:15:47+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0010s ]
+
+[ 2016-07-06T14:15:48+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 6,2   [ RunTime:0.0010s ]
+
+[ 2016-07-06T14:15:49+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 8,2   [ RunTime:0.0008s ]
+
+[ 2016-07-06T14:15:50+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 10,2   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:15:51+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 8,2   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:15:52+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 6,2   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:15:53+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:16:03+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002190s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0010s ]
+
+[ 2016-07-06T14:16:06+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001619s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:16:08+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:21:13+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002138s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002874s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0010s ]
+
+[ 2016-07-06T14:21:15+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0011s ]
+
+[ 2016-07-06T14:21:17+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:24:46+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001573s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-07-06T14:26:46+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003494s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:26:48+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.1741s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0006s ]
+
+[ 2016-07-06T14:26:50+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0010s ]
+
+[ 2016-07-06T14:27:24+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002761s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0008s ]
+
+[ 2016-07-06T14:27:35+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002328s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0008s ]
+
+[ 2016-07-06T14:27:38+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:27:40+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0010s ]
+
+[ 2016-07-06T14:27:49+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002358s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0088s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('为什么我的不显示呢','1467786467') [ RunTime:0.1653s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-07-06T14:29:25+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002496s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:29:32+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0062s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('你好啊 ','1467786570') [ RunTime:0.2052s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:30:09+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:30:17+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.1661s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('再试试啊 怎么回事','1467786616') [ RunTime:0.0582s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 14 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-07-06T14:30:20+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 2,2   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:30:23+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0009s ]
+
+[ 2016-07-06T14:30:26+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 4,2   [ RunTime:0.0006s ]
+
+[ 2016-07-06T14:31:09+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002578s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,2   [ RunTime:0.0003s ]
+
+[ 2016-07-06T14:31:29+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003476s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:31:31+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002212s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0011s ]
+
+[ 2016-07-06T14:34:15+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002704s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:34:17+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003443s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:34:19+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001979s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 12,6   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:34:21+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:34:24+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:34:50+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0079s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('作者你好','1467786889') [ RunTime:0.1058s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:34:55+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:34:57+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001765s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0008s ]
+
+[ 2016-07-06T14:37:31+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003133s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0077s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION chmake.from_inixtime does not exist
+
+[ 2016-07-06T14:38:14+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0055s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION chmake.from_inixtime does not exist
+
+[ 2016-07-06T14:41:37+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001989s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0078s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0843s ]
+
+[ 2016-07-06T14:54:53+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:55:12+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001396s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0064s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:55:13+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-06T14:55:14+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001546s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:56:02+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0717s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0023s ]
+
+[ 2016-07-06T14:56:04+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005534s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.1013s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0077s ]
+
+[ 2016-07-06T14:56:05+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0389s ]
+
+[ 2016-07-06T14:56:17+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0071s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0006s ]
+
+[ 2016-07-06T15:01:02+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002110s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0164s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0009s ]
+
+[ 2016-07-06T15:01:05+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0004s ]
+
+[ 2016-07-06T15:01:06+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.1900s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 12,6   [ RunTime:0.0004s ]
+
+[ 2016-07-06T15:01:09+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-06T15:05:04+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002688s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0122s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0011s ]
+
+[ 2016-07-06T15:05:42+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002890s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0354s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0006s ]
+
+[ 2016-07-06T15:06:14+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001829s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0127s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0012s ]
+
+[ 2016-07-06T15:09:18+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002626s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0186s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0017s ]
+
+[ 2016-07-06T15:10:38+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0097s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 12,6   [ RunTime:0.0005s ]
+
+[ 2016-07-06T15:11:10+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001863s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0004s ]
+
+[ 2016-07-06T15:26:23+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0161s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0010s ]
+
+[ 2016-07-06T15:52:17+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0230s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0006s ]
+
+[ 2016-07-06T16:07:17+08:00 ] 127.0.0.1 /index.php/Ects/index.html
+ERR: 模板不存在:D:/wamp/apache/htdocs/chmake/Home/View/Ects/index.html
+
+[ 2016-07-06T16:08:05+08:00 ] 127.0.0.1 /index.php/Echats/Index/index
+ERR: 模板不存在:D:/wamp/apache/htdocs/chmake/Home/View/Echats/Index.html
+
+[ 2016-07-06T16:25:28+08:00 ] 127.0.0.1 /index.php/Echats/Index/index
+ERR: 非法操作:Index
+
+[ 2016-07-06T16:25:40+08:00 ] 127.0.0.1 /index.php/Echars/Index/index
+ERR: 非法操作:Index
+
+[ 2016-07-06T16:26:21+08:00 ] 127.0.0.1 /index.php/Echars/Index/index
+ERR: 非法操作:Index
+
+[ 2016-07-06T16:26:24+08:00 ] 127.0.0.1 /index.php/Echars/Index/index
+ERR: 非法操作:Index
+
+[ 2016-07-06T16:26:25+08:00 ] 127.0.0.1 /index.php/Echars/Index/index
+ERR: 非法操作:Index
+
+[ 2016-07-06T17:21:21+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0670s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0014s ]
+
+[ 2016-07-06T17:21:22+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0697s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0077s ]
+
+[ 2016-07-06T17:21:24+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0786s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0379s ]
+
+[ 2016-07-06T18:08:26+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001769s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-06T18:12:26+08:00 ] 127.0.0.1 /index.php/Echarts/index.html
+ERR: Think\Model:firld方法不存在！
+
+[ 2016-07-06T22:54:05+08:00 ] 127.0.0.1 /index.php/Linux/lamp.html
+ERR: syntax error, unexpected 'success’' (T_STRING), expecting ',' or ';'
+
+[ 2016-07-06T23:00:36+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002380s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0089s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0006s ]
+
+[ 2016-07-06T23:00:53+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002379s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0150s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('<img src=\"http://img.baidu.com/hi/jx2/j_0017.gif\" alt=\"j_0017.gif\" />作者我想打你','1467817252') [ RunTime:0.1635s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-07-06T23:00:59+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002354s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0182s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0014s ]
+
+[ 2016-07-06T23:01:02+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002336s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0155s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 12,6   [ RunTime:0.0011s ]
+
+[ 2016-07-06T23:01:05+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0157s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0013s ]
+
+[ 2016-07-06T23:01:07+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002373s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0150s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0012s ]
+
+[ 2016-07-06T23:02:24+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002598s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0153s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0012s ]
+
+[ 2016-07-06T23:02:36+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002535s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0145s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('作者好帅<img src=\"http://img.baidu.com/hi/jx2/j_0016.gif\" alt=\"j_0016.gif\" />','1467817355') [ RunTime:0.2014s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2016-07-06T23:13:29+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004105s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0863s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0255s ]
+
+[ 2016-07-06T23:13:30+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002346s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0777s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0123s ]
+
+[ 2016-07-06T23:13:32+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002382s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0843s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0343s ]
+
+[ 2016-07-06T23:14:02+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007607s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-06T23:14:04+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T23:14:05+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002344s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1785s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0011s ]
+
+[ 2016-07-06T23:16:04+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009897s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0012s ]
+
+[ 2016-07-06T23:16:05+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.1269s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T23:16:06+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0033s ]
+
+[ 2016-07-06T23:16:26+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005585s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-06T23:16:27+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002470s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0631s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0013s ]
+
+[ 2016-07-06T23:16:28+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0619s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0034s ]
+
+[ 2016-07-06T23:17:28+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003657s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0007s ]
+
+[ 2016-07-06T23:17:29+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002298s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0013s ]
+
+[ 2016-07-06T23:17:30+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0035s ]
+
+[ 2016-07-06T23:22:39+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006146s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0013s ]
+
+[ 2016-07-06T23:22:41+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002374s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0546s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T23:22:42+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002136s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0593s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0042s ]
+
+[ 2016-07-06T23:24:13+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006579s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0522s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0013s ]
+
+[ 2016-07-06T23:24:15+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.1079s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0012s ]
+
+[ 2016-07-06T23:24:16+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001889s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0199s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0034s ]
+
+[ 2016-07-06T23:40:51+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001805s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0234s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-06T23:41:04+08:00 ] 127.0.0.1 /index.php/Linux/jquery.js
+ERR: 非法操作:jquery.js
+

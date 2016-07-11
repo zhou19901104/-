@@ -1,0 +1,217 @@
+{__NOLAYOUT__}
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="<{:C('IMG_URL')}>icon/favicon.ico">
+  <link href="<{:C('CSS_URL')}>bootstrap.min.css" rel="stylesheet">
+  <link href="<{:C('CSS_URL')}>font-awesome.min93e3.css" rel="stylesheet">
+  <link href="<{:C('CSS_URL')}>animate.min.css" rel="stylesheet">
+  <link href="<{:C('CSS_URL')}>style.min862f.css?v=4.1.0" rel="stylesheet">
+  <link href="<{:C('CSS_URL')}>style.css" rel="stylesheet">
+  <style type="text/css">
+    body {
+      font-size: 14px;
+      padding-top: 0px;
+    }
+  </style>
+</head>
+
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated">
+  <div class="row">
+    <div class="col-sm-7">
+      <div class="row">
+      <div class="form-group" >
+        <div class="col-sm-5">
+        <input type="text" class="form-control" name="ac_title" id="inputName" placeholder="请输入文章标题">
+        </div>
+      </div>
+      </div>
+      <textarea id="article_write" style="height: 80%;margin-top:5px;"></textarea>
+      <button class="btn btn-info btn-sm" style="margin: 5px 0 0 80%;" onclick="add_article()">发布文章</button>
+      <button id="addBox" class="btn btn-success btn-sm" style="display:none;margin-top: 5px;">发布成功</button>
+    </div>
+    <div class="col-sm-4">
+
+        <div class="ibox float-e-margins">
+          <!--第一行小部件-->
+          <div class="ibox-title">
+            <h5>小贴士</h5>
+            <div class="ibox-tools">
+              <a class="collapse-link">
+                <i class="fa fa-chevron-up"></i>
+              </a>
+              <a class="dropdown-toggle" data-toggle="dropdown" href="form_editors.html#">
+                <i class="fa fa-wrench"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-user">
+                <li><a href="form_editors.html#">选项1</a>
+                </li>
+                <li><a href="form_editors.html#">选项2</a>
+                </li>
+              </ul>
+              <a class="close-link">
+                <i class="fa fa-times"></i>
+              </a>
+            </div>
+          </div>
+          <!--小部件结束-->
+
+          <div class="ibox-content">
+
+            <div class="alert alert-info">
+              不要害怕去解决难题或者失败。这就是我们学习的方式。
+            </div>
+            <div class="clearfix">
+              <a class="btn btn-info btn-xs collapse-link fa fa-chevron-up">收起</a>
+            </div>
+          </div>
+        </div>
+      <div class="ibox float-e-margins">
+        <!--第一行小部件-->
+        <div class="ibox-title">
+          <h5>谚语</h5>
+          <div class="ibox-tools">
+            <a class="collapse-link">
+              <i class="fa fa-chevron-up"></i>
+            </a>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="form_editors.html#">
+              <i class="fa fa-wrench"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-user">
+              <li><a href="form_editors.html#">选项1</a>
+              </li>
+              <li><a href="form_editors.html#">选项2</a>
+              </li>
+            </ul>
+            <a class="close-link">
+              <i class="fa fa-times"></i>
+            </a>
+          </div>
+        </div>
+        <!--小部件结束-->
+
+        <div class="ibox-content">
+
+          <div class="alert alert-info">
+            不挑担子不知重，不走长路不知远。
+          </div>
+          <div class="clearfix">
+            <a class="btn btn-info btn-xs collapse-link fa fa-chevron-up">收起</a>
+          </div>
+        </div>
+      </div>
+
+      <!--<h3 class="text-danger">文章分类</h3>-->
+      <!--<form class="form-group">-->
+        <!--<select class="form-control" id="cateOne" onchange="select_category()">-->
+        <!--</select>-->
+        <!--<select class="form-control" id="cateTwo">-->
+        <!--</select>-->
+      <!--</form>-->
+    </div>
+  </div>
+</div>
+
+<!--底部栏开始-->
+<div class="container-fluid">
+  <div class="col-md-12">
+    <footer class="footer"><p class="text-info text-center">POWERED BY &copy;<a href="http://www.chmake.cn">尘剑隐芒
+      chmake.cn</a>&nbsp;&nbsp;&nbsp;<span><a href="http://www.miitbeian.gov.cn/"
+                                              target="_blank">京ICP备16033390号-1</a></span></p></footer>
+  </div>
+</div>
+<!--底部栏结束-->
+<script src="<{:C('JS_URL')}>jquery-2.1.4.min.js" type="text/javascript"></script>
+<script src="<{:C('JS_URL')}>bootstrap.min.js"></script>
+<script src="<{:C('JS_URL')}>content.min.js?v=1.0.0"></script>
+<script type="text/javascript" src="<{:C('PLUGIN_URL')}>uEditor/ueditor.config.js"></script>
+<script type="text/javascript" src="<{:C('PLUGIN_URL')}>uEditor/ueditor.all.min.js"></script>
+<script type="text/javascript" src="<{:C('PLUGIN_URL')}>uEditor/lang/zh-cn/zh-cn.js"></script>
+
+<script type="text/javascript">
+
+//  $(function () {
+//
+//    $.ajax({
+//      url:'__MODULE__-Category-cat',
+//      dataType:'json',
+//      type:'get',
+//      success:function (data) {
+//        var str = '';
+//        $.each(data, function (index,value) {
+//          str += ' <option value="'+value.cat_id+'">'+value.cat_name+'</option>';
+//        })
+//        $('#cateOne').html(str);
+//        select_category();
+//      },
+//    });
+//  });
+//
+//
+//  function select_category() {
+//
+//    var cat_id=$('#cateOne option:selected').val();
+//    $.ajax({
+//      url:'__MODULE__-Category-select',
+//      data:{'cat_id':cat_id,},
+//      dataType:'json',
+//      type:'get',
+//      success:function (data2) {
+//        console.log(data2);
+//        var str2 = '';
+//        $.each(data2,function (index,value2) {
+//           str2 += ' <option value="'+value2.cat_id+'">'+value2.cat_name+'</option>';
+//        })
+//        $('#cateTwo').html(str2);
+//      },
+//    })
+//  }
+//
+
+//发表评论
+function add_article() {
+  //富文本编辑器通过以下方式获得内容
+  var comment = UE.getEditor('article_write').getContent();
+  var ac_title = $('#inputName').val();
+  if (comment !== null || comment !== undefined) {
+    //② 通过ajax传递内容到服务器端存储
+    $.ajax({
+      url: "__MODULE__-Article-write",
+      data: {'comment': comment,'ac_title':ac_title},
+      dataType: 'json',
+      type: 'post',
+      success: function (msg) {
+        UE.getEditor('article_write').setContent(''); //富文本编辑器内容清空
+        $("#addBox").show();
+        setTimeout(function () {
+          $("#addBox").hide();
+        },2000);
+      },
+      error:function () {
+        alert('请认真填写标题和内容');
+      },
+    });
+  }
+}
+  var ue = UE.getEditor('article_write', {
+    toolbars: [[
+      'fullscreen', 'source', '|', 'undo', 'redo', '|',
+      'bold', 'italic', 'underline', 'fontborder', 'strikethrough', '|', 'forecolor', 'backcolor', 'insertorderedlist', 'insertunorderedlist', 'selectall', 'cleardoc', '|',
+      'rowspacingtop', 'rowspacingbottom', 'lineheight', '|',
+      'customstyle', 'paragraph', 'fontfamily', 'fontsize', '|',
+      'directionalityltr', 'directionalityrtl', 'indent', '|',
+      'justifyleft', 'touppercase', 'tolowercase', '|',
+      'link', 'unlink', 'anchor', '|', 'imagenone', 'imageleft', 'imageright', 'imagecenter', '|',
+      'simpleupload', 'insertimage', 'emotion',
+      'horizontal'
+    ]]
+  });
+</script>
+</body>
+</html>

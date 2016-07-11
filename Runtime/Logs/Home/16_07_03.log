@@ -1,0 +1,8 @@
+[ 2016-07-03T11:47:11+08:00 ] 127.0.0.1 /index.php/Home/Api/weather
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.017943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.033057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.105062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.105166s ]
+

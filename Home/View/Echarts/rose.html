@@ -1,0 +1,158 @@
+<script src="http://echarts.baidu.com/dist/echarts.min.js" type="text/javascript"></script>
+<!--右侧总页面开始-->
+<div class="col-md-10">
+  <!--右侧页面第一行开始-->
+  <div class="row">
+   <div class="col-md-9" id="rose" style="height: 400px;">
+
+   </div>
+    <div class="col-md-3">
+      <h4 class="text-warning">小框框</h4>
+      <hr />
+      <p class="text-info"> 完善个人信息,快来加入我们哦..！</p>
+    </div>
+  </div>
+  <!--右侧页面第一行结束-->
+
+
+  <!--首页右侧第二行开始-->
+  <div class="row" style="margin-top: 10px;">
+
+    <ul id="myTab" class="nav nav-tabs" role="tablist">
+      <li class="active"><a href="#bulletin" role="tab" data-toggle="pill">代码展现</a></li>
+      <li><a href="#rule" role="tab" data-toggle="pill">评论区</a></li>
+      <li><a href="#forum" role="tab" data-toggle="pill">问题提交</a></li>
+    </ul>
+    <!-- 选项卡面板 -->
+    <div id="myTabContent" class="tab-content">
+      <div class="tab-pane fade in active text-info" id="bulletin">
+        \<\script type="text/javascript"><br />
+              var myChart = echarts.init(document.getElementById('rose'));<br />
+              myChart.setOption({<br />
+                backgroundColor: '#ccc',<br />
+                title:{<br />
+                  text:'注册用户统计图',<br />
+                  textStyle:{<br />
+                    color:'white',<br />
+                  },},
+                tooltip : {<br />
+                  trigger: 'item',<br />
+                  formatter: "{a} <br/>{b} : {c} ({d}%)"},<br />
+                series : [<br />
+                  {<br />
+                    name: '注册人数',<br />
+                    type: 'pie',<br />
+                    radius: '55%',<br />
+                    data:[],<br />
+                    roseType: 'angle',<br />
+                    label: {<br />
+                      normal: {<br />
+                        textStyle: {<br />
+                          color: 'rgba(255, 255, 255, 0.8)'<br />
+                        }}},
+                    labelLine: {<br />
+                      normal: {<br />
+                        lineStyle: {<br />
+                          color: 'rgba(255, 255, 255, 0.3)'<br />
+                        }}},}<br />
+                ]<br />
+              });<br />
+              myChart.showLoading();<br />
+              $.ajax({<br />
+                url:'__CONTROLLER__/province ',<br />
+                dataType:'json',<br />
+                success:function (data) {<br />
+                  var statistics_data = [];<br />
+                  $.each(data, function (index,value) {<br />
+                    statistics_data.push({<br />
+                      value: value.count,<br />
+                      name:value.name<br />
+                    })<br />
+                  })<br />
+                  // console.log(statistics_data);<br />
+                  myChart.hideLoading();<br />
+                  myChart.setOption({<br />
+                    series: [{<br />
+                      // 根据名字对应到相应的系列<br />
+                      data: statistics_data.sort(function (a, b) { return a.value - b.value}),<br />
+                    }]<br />
+                  });},<br />
+              });<br />
+            \<\/script>
+
+      </div>
+      <div class="tab-pane fade text-danger" id="rule">没有什么规则</div>
+      <div class="tab-pane fade text-success" id="forum">正在开发中</div>
+      <div class="tab-pane fade text-primary" id="security">还在努力中,不要黑我哦，谢谢！</div>
+    </div>
+
+  </div>
+  <!--首页右侧第二列end-->
+
+</div>
+<!--右侧总页面结束-->
+<script type="text/javascript">
+  var myChart = echarts.init(document.getElementById('rose'));
+  myChart.setOption({
+    backgroundColor: '#ccc',
+    title:{
+      text:'注册用户统计图',
+      textStyle:{
+        color:'white',
+      },
+    },
+    tooltip : {
+      trigger: 'item',
+      formatter: "{a} <br/>{b} : {c} ({d}%)"
+    },
+    series : [
+      {
+        name: '注册人数',
+        type: 'pie',
+        radius: '55%',
+        data:[],
+        roseType: 'angle',
+        label: {
+          normal: {
+            textStyle: {
+              color: 'rgba(255, 255, 255, 0.8)'
+            }
+          }
+        },
+        labelLine: {
+          normal: {
+            lineStyle: {
+              color: 'rgba(255, 255, 255, 0.3)'
+            }
+          }
+        },
+      }
+    ]
+  });
+  myChart.showLoading();
+  $.ajax({
+    url:'__CONTROLLER__-province ',
+    dataType:'json',
+    success:function (data) {
+      var statistics_data = [];
+      $.each(data, function (index,value) {
+        statistics_data.push({
+          value: value.count,
+          name:value.name
+        })
+      })
+   // console.log(statistics_data);
+      myChart.hideLoading();
+      myChart.setOption({
+        series: [{
+          // 根据名字对应到相应的系列
+          data: statistics_data.sort(function (a, b) { return a.value - b.value}),
+        }]
+      });
+
+    },
+  });
+</script>
+</div>
+</div>
+<!--总页面结束-->

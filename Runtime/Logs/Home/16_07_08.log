@@ -1,0 +1,2178 @@
+[ 2016-07-08T08:48:07+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002568s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0116s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0012s ]
+
+[ 2016-07-08T09:12:52+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001775s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-08T09:21:51+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001352s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0057s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0014s ]
+
+[ 2016-07-08T09:34:31+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002477s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0128s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0012s ]
+
+[ 2016-07-08T10:01:29+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-08T10:31:51+08:00 ] 127.0.0.1 /index.php/Home-Api-weather
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2016-07-08T11:01:51+08:00 ] 127.0.0.1 /index.php/Home-Api-weather
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001577s ]
+
+[ 2016-07-08T11:31:51+08:00 ] 127.0.0.1 /index.php/Home-Api-weather
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2016-07-08T12:01:51+08:00 ] 127.0.0.1 /index.php/Home-Api-weather
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004269s ]
+
+[ 2016-07-08T12:41:47+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004691s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0616s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0012s ]
+
+[ 2016-07-08T13:34:03+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0162s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0010s ]
+
+[ 2016-07-08T13:57:13+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0149s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0007s ]
+
+[ 2016-07-08T14:29:07+08:00 ] 127.0.0.1 /index.php/Home-User-province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002354s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.1384s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0018s ]
+
+[ 2016-07-08T14:29:08+08:00 ] 127.0.0.1 /index.php/Home-User-city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002620s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0840s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0411s ]
+
+[ 2016-07-08T14:29:09+08:00 ] 127.0.0.1 /index.php/Home-User-area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002263s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1275s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0396s ]
+
+[ 2016-07-08T14:59:33+08:00 ] 127.0.0.1 /index.php/Home-Api-weather
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2016-07-08T15:29:33+08:00 ] 127.0.0.1 /index.php/Home-Api-weather
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2016-07-08T15:31:24+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002053s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0064s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0006s ]
+
+[ 2016-07-08T15:31:58+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0064s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0005s ]
+
+[ 2016-07-08T15:32:44+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003719s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0094s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0006s ]
+
+[ 2016-07-08T15:32:53+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002293s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-08T15:33:59+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002815s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0006s ]
+
+[ 2016-07-08T15:39:45+08:00 ] 127.0.0.1 /index.php/Author-index.html
+ERR: syntax error, unexpected '}', expecting ',' or ';'
+
+[ 2016-07-08T15:40:16+08:00 ] 127.0.0.1 /index.php/Author-index.html
+ERR: syntax error, unexpected '}', expecting ',' or ';'
+
+[ 2016-07-08T15:43:33+08:00 ] 127.0.0.1 /index.php/__MODULE__-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003385s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032489s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-07-08T15:44:36+08:00 ] 127.0.0.1 /index.php/index.php/__MODULE__-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001834s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001539s ]
+
+[ 2016-07-08T15:45:44+08:00 ] 127.0.0.1 /index.php/index.php/__MODULE__-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002846s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2016-07-08T15:46:20+08:00 ] 127.0.0.1 /index.php/index.php-__MODULE__-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001726s ]
+
+[ 2016-07-08T15:46:49+08:00 ] 127.0.0.1 /index.php/.-index.php-__MODULE__-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003863s ]
+
+[ 2016-07-08T15:47:17+08:00 ] 127.0.0.1 /index.php/index.php-__MODULE__-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002229s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002094s ]
+
+[ 2016-07-08T15:47:46+08:00 ] 127.0.0.1 /index.php/index.php-Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018926s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001721s ]
+
+[ 2016-07-08T15:48:16+08:00 ] 127.0.0.1 /index.php/index.php-Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2016-07-08T15:50:41+08:00 ] 127.0.0.1 /index.php/%3C%7B:C('SITE_URL')%7D%3Eindex.php-Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-08T15:51:53+08:00 ] 127.0.0.1 /index.php/index.php-Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002743s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002345s ]
+
+[ 2016-07-08T15:52:11+08:00 ] 127.0.0.1 /index.php/index.php-Home-Author-addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002078s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002137s ]
+
+[ 2016-07-08T15:52:56+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0003s ]
+
+[ 2016-07-08T15:53:04+08:00 ] 127.0.0.1 /index.php/Home-Author-addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001993s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0041s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('你好啊','1467964382') [ RunTime:0.4414s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-08T16:41:13+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0005s ]
+
+[ 2016-07-08T16:41:32+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004893s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-08T16:41:35+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0005s ]
+
+[ 2016-07-08T16:41:48+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0078s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0008s ]
+
+[ 2016-07-08T16:54:57+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003094s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0365s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u.name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  ORDER' at line 1
+
+[ 2016-07-08T16:55:56+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u.name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  ORDER' at line 1
+
+[ 2016-07-08T16:58:28+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u.name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  ORDER' at line 1
+
+[ 2016-07-08T16:58:59+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004295s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0580s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u.username FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  O' at line 1
+
+[ 2016-07-08T16:59:52+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1552s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u.username FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  O' at line 1
+
+[ 2016-07-08T17:01:14+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0525s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u.username FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  O' at line 1
+
+[ 2016-07-08T17:02:42+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004228s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0051s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  ' at line 1
+
+[ 2016-07-08T17:05:47+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003417s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0581s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`user_name` FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  ' at line 1
+
+[ 2016-07-08T17:15:13+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002675s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0583s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  ' at line 1
+
+[ 2016-07-08T17:16:24+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002480s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0593s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM ch_article a WHERE ( a.ac_active=1 ) ORDER BY article_id DESC LIMIT 0,4' at line 1
+
+[ 2016-07-08T17:17:26+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003146s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0497s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM ch_article a WHERE ( a.ac_active=1 ) ORDER BY article_id DESC LIMIT 0,4' at line 1
+
+[ 2016-07-08T17:19:20+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003933s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0062s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM ch_article a WHERE ( a.ac_active=1 ) ORDER BY article_id DESC LIMIT 0,4' at line 1
+
+[ 2016-07-08T17:19:33+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002542s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-08T17:21:30+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002993s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0141s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0007s ]
+
+[ 2016-07-08T17:21:42+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001460s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0074s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-08T17:22:09+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003330s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-08T17:23:59+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004379s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0598s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM ch_article a WHERE ( a.ac_active=1 ) ORDER BY article_id DESC LIMIT 0,4' at line 1
+
+[ 2016-07-08T17:24:44+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM ch_article a WHERE ( a.ac_active=1 ) ORDER BY article_id DESC LIMIT 0,4' at line 1
+
+[ 2016-07-08T17:25:28+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006802s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0052s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM ch_article a WHERE ( ac_active=1 ) ORDER BY article_id DESC LIMIT 0,4' at line 1
+
+[ 2016-07-08T17:25:57+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM ch_article a WHERE ( ac_active=1 ) ORDER BY article_id DESC LIMIT 0,4' at line 1
+
+[ 2016-07-08T17:26:38+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ch_article` WHERE ( ac_active=1 ) ORDER BY article_id DESC LIMIT 0,4' at line 1
+
+[ 2016-07-08T17:27:37+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.ac_active FROM `ch_article` WHERE ( ac_active=1 ) ORDER BY article_id DESC LIM' at line 1
+
+[ 2016-07-08T17:27:42+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.ac_active FROM `ch_article` WHERE ( ac_active=1 ) ORDER BY article_id DESC LIM' at line 1
+
+[ 2016-07-08T17:28:24+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.ac_active FROM ch_article a WHERE ( ac_active=1 ) ORDER BY article_id DESC LIM' at line 1
+
+[ 2016-07-08T17:28:34+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.ac_active FROM ch_article a WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC' at line 1
+
+[ 2016-07-08T17:28:57+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.ac_active FROM ch_article a WHERE ( a.ac_active=1 ) ORDER BY article_id DESC L' at line 1
+
+[ 2016-07-08T17:29:11+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.ac_active FROM ch_article a WHERE ( a.ac_active=1 ) LIMIT 0,4' at line 1
+
+[ 2016-07-08T17:29:23+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.ac_active FROM ch_article a LIMIT 0,4' at line 1
+
+[ 2016-07-08T17:30:10+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.ac_active FROM ch_article a LIMIT 0,4' at line 1
+
+[ 2016-07-08T17:31:15+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`ac_active` FROM `ch_article` LIMIT 0,4' at line 1
+
+[ 2016-07-08T17:42:20+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002380s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0055s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-07-08T17:43:18+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002002s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0150s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T17:43:58+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0520s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T17:43:59+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0071s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 8,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T17:46:32+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003383s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0054s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T17:46:41+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004024s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0110s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0012s ]
+
+[ 2016-07-08T17:46:49+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003611s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0500s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-07-08T17:52:25+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0138s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0021s ]
+
+[ 2016-07-08T17:53:01+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002931s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0078s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2016-07-08T17:53:08+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001666s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0172s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0009s ]
+
+[ 2016-07-08T17:53:46+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003564s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0609s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2016-07-08T17:54:06+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0083s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0010s ]
+
+[ 2016-07-08T17:54:13+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006733s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0051s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T17:54:15+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0148s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 8,4   [ RunTime:0.0008s ]
+
+[ 2016-07-08T17:54:17+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001604s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0054s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 12,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T17:54:35+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0337s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0012s ]
+
+[ 2016-07-08T17:54:59+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0048s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T17:55:04+08:00 ] 127.0.0.1 /index.php/Article-showbyid.html
+ERR: 非法操作:showbyid
+
+[ 2016-07-08T17:55:07+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002652s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0085s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0011s ]
+
+[ 2016-07-08T17:56:20+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0145s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T17:57:04+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002672s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0627s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T17:58:20+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003550s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0145s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0016s ]
+
+[ 2016-07-08T17:58:42+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0558s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0017s ]
+
+[ 2016-07-08T17:59:04+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0061s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-07-08T17:59:46+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002333s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0601s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T18:00:38+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002443s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0601s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T18:01:22+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003600s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0674s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2016-07-08T18:04:24+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003096s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0088s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0009s ]
+
+[ 2016-07-08T18:29:37+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0151s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0030s ]
+
+[ 2016-07-08T18:29:58+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003091s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0594s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0016s ]
+
+[ 2016-07-08T18:30:14+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0606s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T18:32:00+08:00 ] 127.0.0.1 /index.php
+ERR: syntax error, unexpected ')'
+
+[ 2016-07-08T18:32:26+08:00 ] 127.0.0.1 /index.php
+ERR: syntax error, unexpected ')'
+
+[ 2016-07-08T18:32:41+08:00 ] 127.0.0.1 /index.php
+ERR: syntax error, unexpected ')'
+
+[ 2016-07-08T18:33:04+08:00 ] 127.0.0.1 /index.php
+ERR: syntax error, unexpected ')'
+
+[ 2016-07-08T18:33:18+08:00 ] 127.0.0.1 /index.php/
+ERR: syntax error, unexpected ')'
+
+[ 2016-07-08T18:34:53+08:00 ] 127.0.0.1 /index.php/
+ERR: syntax error, unexpected ')'
+
+[ 2016-07-08T18:34:59+08:00 ] 127.0.0.1 /index.php/
+ERR: syntax error, unexpected ')'
+
+[ 2016-07-08T18:35:36+08:00 ] 127.0.0.1 /index.php/
+ERR: syntax error, unexpected ')'
+
+[ 2016-07-08T18:35:42+08:00 ] 127.0.0.1 /index.php
+ERR: syntax error, unexpected ')'
+
+[ 2016-07-08T18:36:06+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002455s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0599s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2016-07-08T18:36:34+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002861s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0850s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T18:37:28+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003967s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0657s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T18:38:28+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002633s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0141s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-08T18:39:09+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002899s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1025s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T18:45:33+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002548s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0566s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0023s ]
+
+[ 2016-07-08T18:45:37+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001849s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1549s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 8,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T18:45:39+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0911s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 12,4   [ RunTime:0.0007s ]
+
+[ 2016-07-08T18:46:14+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002758s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0314s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T18:46:17+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0081s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0008s ]
+
+[ 2016-07-08T18:47:29+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0117s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0011s ]
+
+[ 2016-07-08T18:47:32+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0092s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0004s ]
+
+[ 2016-07-08T18:47:38+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0057s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 8,4   [ RunTime:0.0006s ]
+
+[ 2016-07-08T18:51:18+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001825s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0551s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0009s ]
+
+[ 2016-07-08T18:51:47+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002520s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0579s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0012s ]
+
+[ 2016-07-08T18:51:52+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002718s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0665s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T18:51:56+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0151s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 8,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T18:54:39+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002656s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0149s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0012s ]
+
+[ 2016-07-08T18:54:41+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001615s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0128s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T18:54:44+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002934s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0636s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 8,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T18:54:46+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0065s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 16,4   [ RunTime:0.0007s ]
+
+[ 2016-07-08T18:54:49+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0134s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 12,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T18:57:27+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001955s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0584s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T18:57:31+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0132s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T18:57:32+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0549s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 8,4   [ RunTime:0.0017s ]
+
+[ 2016-07-08T18:58:26+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0126s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T18:58:57+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0631s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-07-08T18:59:31+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0655s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0016s ]
+
+[ 2016-07-08T19:00:12+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001585s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0169s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0011s ]
+
+[ 2016-07-08T19:00:23+08:00 ] 127.0.0.1 /index.php/Home-Author-addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0134s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('作者你好','1467975622') [ RunTime:0.1765s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-08T19:00:33+08:00 ] 127.0.0.1 /index.php/Home-Author-addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0143s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('我在发布一个事实','1467975632') [ RunTime:0.1864s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-07-08T19:00:45+08:00 ] 127.0.0.1 /index.php/Home-Author-addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0142s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('还没好啊？','1467975644') [ RunTime:0.2159s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-07-08T19:00:50+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002557s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0069s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0006s ]
+
+[ 2016-07-08T19:00:52+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001965s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0011s ]
+
+[ 2016-07-08T19:00:54+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0114s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0010s ]
+
+[ 2016-07-08T19:01:45+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002485s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1731s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:02:01+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003628s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0606s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0015s ]
+
+[ 2016-07-08T19:02:23+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0134s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0015s ]
+
+[ 2016-07-08T19:02:28+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0133s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0016s ]
+
+[ 2016-07-08T19:04:13+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003102s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0571s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:04:18+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003088s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0634s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:04:25+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0609s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 16,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T19:04:30+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0621s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 12,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T19:04:33+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001838s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0338s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 16,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:04:37+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002119s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0596s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:05:24+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003502s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0087s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0009s ]
+
+[ 2016-07-08T19:05:54+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0589s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2016-07-08T19:05:58+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0073s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T19:06:59+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001881s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0600s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0015s ]
+
+[ 2016-07-08T19:09:09+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002024s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0575s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0012s ]
+
+[ 2016-07-08T19:11:01+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002322s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0574s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0023s ]
+
+[ 2016-07-08T19:11:05+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0130s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0015s ]
+
+[ 2016-07-08T19:12:10+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0132s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:12:16+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0574s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 16,4   [ RunTime:0.0007s ]
+
+[ 2016-07-08T19:12:20+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0803s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 12,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:12:24+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002090s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0561s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:12:29+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0541s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 8,4   [ RunTime:0.0008s ]
+
+[ 2016-07-08T19:13:05+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003758s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0645s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0012s ]
+
+[ 2016-07-08T19:13:29+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0616s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:14:04+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002313s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0139s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0012s ]
+
+[ 2016-07-08T19:14:21+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002327s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0596s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0018s ]
+
+[ 2016-07-08T19:14:25+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0543s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 16,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T19:14:28+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0138s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 8,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:14:45+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002323s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0010s ]
+
+[ 2016-07-08T19:14:51+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002375s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0931s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:16:28+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002014s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0134s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0015s ]
+
+[ 2016-07-08T19:16:33+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0626s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 8,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:16:36+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0629s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 16,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T19:16:40+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0646s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0012s ]
+
+[ 2016-07-08T19:16:58+08:00 ] 127.0.0.1 /index.php/Article-showbyid.html
+ERR: 非法操作:showbyid
+
+[ 2016-07-08T19:17:01+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002589s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0137s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:19:47+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002531s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0137s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:20:04+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0490s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2016-07-08T19:20:31+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004122s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0209s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0016s ]
+
+[ 2016-07-08T19:21:28+08:00 ] 127.0.0.1 /index.php/Index-index.html
+ERR: syntax error, unexpected ')'
+
+[ 2016-07-08T19:21:55+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0605s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:23:38+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0647s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-08T19:24:02+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003321s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0688s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:27:54+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0607s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:28:36+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002385s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0565s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:28:52+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003008s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0136s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0017s ]
+
+[ 2016-07-08T19:29:20+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002938s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0141s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:29:54+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003341s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0128s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0016s ]
+
+[ 2016-07-08T19:30:48+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002576s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0169s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0023s ]
+
+[ 2016-07-08T19:30:50+08:00 ] 127.0.0.1 /index.php/Article-show.html
+ERR: 非法操作:show
+
+[ 2016-07-08T19:30:53+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002182s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0133s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0021s ]
+
+[ 2016-07-08T19:32:14+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002434s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0174s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:32:50+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0653s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:33:47+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0636s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time),a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0015s ]
+
+[ 2016-07-08T19:34:35+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003163s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0611s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time),a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:36:03+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002342s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0249s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time),a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:36:06+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0562s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time),a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 16,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:36:09+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0575s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time),a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 8,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T19:36:25+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002032s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0147s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time),a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0017s ]
+
+[ 2016-07-08T19:36:32+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0142s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time),a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0019s ]
+
+[ 2016-07-08T19:37:06+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003053s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0076s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:37:19+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0132s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 16,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:37:23+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001991s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0556s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:41:04+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002348s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0546s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:42:14+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002745s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0134s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0018s ]
+
+[ 2016-07-08T19:42:47+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003725s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0768s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:43:06+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0111s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0011s ]
+
+[ 2016-07-08T19:43:10+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004051s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0527s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-07-08T19:43:33+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1235s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-08T19:43:49+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0616s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0018s ]
+
+[ 2016-07-08T19:43:58+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002110s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0649s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0018s ]
+
+[ 2016-07-08T19:44:10+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002114s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1507s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-07-08T19:44:22+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002721s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0143s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T19:44:28+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003858s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0647s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T19:45:54+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002789s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0633s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0010s ]
+
+[ 2016-07-08T19:46:58+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006104s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0651s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0016s ]
+
+[ 2016-07-08T19:47:02+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0136s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0017s ]
+
+[ 2016-07-08T19:47:06+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0641s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0017s ]
+
+[ 2016-07-08T19:49:16+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002640s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0638s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0009s ]
+
+[ 2016-07-08T19:51:56+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002677s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0076s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2016-07-08T19:52:12+08:00 ] 127.0.0.1 /index.php/Index-index.html
+ERR: syntax error, unexpected '=', expecting ')'
+
+[ 2016-07-08T19:53:06+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0565s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2016-07-08T20:00:56+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002926s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0079s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2016-07-08T20:01:41+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002352s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0690s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0016s ]
+
+[ 2016-07-08T20:03:24+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002640s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0510s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T20:09:46+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0508s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0012s ]
+
+[ 2016-07-08T20:09:50+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0630s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 16,4   [ RunTime:0.0006s ]
+
+[ 2016-07-08T20:09:59+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002272s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0555s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T20:12:49+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002239s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0109s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0009s ]
+
+[ 2016-07-08T20:13:03+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003310s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0606s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0020s ]
+
+[ 2016-07-08T21:23:32+08:00 ] 127.0.0.1 /index.php/Home-Echarts-province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005329s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0247s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0826s ]
+
+[ 2016-07-08T21:23:40+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003750s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0252s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0012s ]
+
+[ 2016-07-08T21:23:48+08:00 ] 127.0.0.1 /index.php/Home-Echarts-province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002828s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0192s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0023s ]
+
+[ 2016-07-08T21:24:20+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003971s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0145s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0014s ]
+
+[ 2016-07-08T21:24:25+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003214s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0092s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-07-08T21:40:55+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001878s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0171s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 4,4   [ RunTime:0.0015s ]
+
+[ 2016-07-08T21:40:56+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0053s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 8,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T21:42:43+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0132s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 16,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T21:42:46+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001655s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0624s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T21:43:12+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002942s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0652s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T21:44:33+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002795s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0122s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T21:45:09+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003190s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0119s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T21:58:41+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003941s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0793s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T21:59:29+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003398s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0653s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T22:01:14+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003140s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0148s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0015s ]
+
+[ 2016-07-08T22:01:19+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002516s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0127s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-07-08T22:04:49+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0162s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0012s ]
+
+[ 2016-07-08T22:04:54+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002231s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0662s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0016s ]
+
+[ 2016-07-08T22:12:36+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003811s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0126s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0023s ]
+
+[ 2016-07-08T22:13:10+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002378s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0623s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0020s ]
+
+[ 2016-07-08T22:13:17+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003287s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0136s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-08T22:17:00+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003223s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0150s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0015s ]
+
+[ 2016-07-08T22:17:09+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002938s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1801s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-08T22:17:26+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002351s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0055s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0005s ]
+
+[ 2016-07-08T22:18:01+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0205s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-08T22:20:37+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003011s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0148s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0015s ]
+
+[ 2016-07-08T22:20:45+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003050s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1115s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-08T22:27:46+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001845s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0570s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T22:34:25+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002224s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0374s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T22:34:53+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003167s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0133s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T22:45:57+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003453s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0133s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0012s ]
+
+[ 2016-07-08T22:46:11+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0612s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0023s ]
+
+[ 2016-07-08T22:49:57+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0596s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0017s ]
+
+[ 2016-07-08T22:54:44+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0139s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0016s ]
+
+[ 2016-07-08T22:55:39+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003395s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1525s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-08T22:56:26+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0089s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-08T22:56:40+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0622s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0019s ]
+
+[ 2016-07-08T22:57:31+08:00 ] 127.0.0.1 /index.php/Home-User-province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0013s ]
+
+[ 2016-07-08T22:57:32+08:00 ] 127.0.0.1 /index.php/Home-User-city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002132s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0911s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0352s ]
+
+[ 2016-07-08T22:57:33+08:00 ] 127.0.0.1 /index.php/Home-User-area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0812s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0376s ]
+
+[ 2016-07-08T22:58:30+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002648s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0610s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0015s ]
+
+[ 2016-07-08T22:58:34+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003386s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0159s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0015s ]
+
+[ 2016-07-08T22:59:02+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002899s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0568s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-07-08T22:59:04+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0140s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0017s ]
+
+[ 2016-07-08T22:59:14+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001523s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0163s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T22:59:28+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0136s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T22:59:38+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003026s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1019s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T22:59:49+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002058s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0123s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T23:10:46+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004031s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.2656s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0017s ]
+
+[ 2016-07-08T23:15:39+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002857s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0398s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0016s ]
+
+[ 2016-07-08T23:16:00+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002758s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0623s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T23:21:44+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002655s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0072s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-07-08T23:22:07+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0431s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T23:22:50+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001530s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0558s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0015s ]
+
+[ 2016-07-08T23:22:58+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002121s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0172s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0010s ]
+
+[ 2016-07-08T23:23:09+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0646s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T23:30:21+08:00 ] 127.0.0.1 /index.php/Home-Article-show-id-17
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chmake.ch_a_uthor' doesn't exist
+
+[ 2016-07-08T23:45:33+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002485s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0250s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0024s ]
+
+[ 2016-07-08T23:45:42+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0597s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-08T23:46:16+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002775s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0615s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0012s ]
+
+[ 2016-07-08T23:48:10+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002893s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0141s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-08T23:49:46+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002132s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1461s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-08T23:55:30+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0554s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.article_id DESC LIMIT 0,4   [ RunTime:0.0009s ]
+

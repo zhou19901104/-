@@ -1,0 +1,1380 @@
+[ 2016-07-07T09:10:06+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001602s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0005s ]
+
+[ 2016-07-07T09:10:35+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0118s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0009s ]
+
+[ 2016-07-07T09:13:40+08:00 ] 127.0.0.1 /index.php/Echarts/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'address' in 'field list'
+
+[ 2016-07-07T09:16:07+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001609s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0730s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0093s ]
+
+[ 2016-07-07T09:16:08+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0760s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0138s ]
+
+[ 2016-07-07T09:16:09+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1344s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0340s ]
+
+[ 2016-07-07T09:16:24+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=340000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0594s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '340000'  [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:16:25+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=340100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '340100'  [ RunTime:0.0010s ]
+
+[ 2016-07-07T09:16:26+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=340600
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001927s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0512s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '340600'  [ RunTime:0.0011s ]
+
+[ 2016-07-07T09:16:53+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001418s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0007s ]
+
+[ 2016-07-07T09:16:54+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.1097s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0012s ]
+
+[ 2016-07-07T09:16:55+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0583s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0035s ]
+
+[ 2016-07-07T09:17:22+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:17:23+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0561s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0010s ]
+
+[ 2016-07-07T09:17:24+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0039s ]
+
+[ 2016-07-07T09:17:33+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=370000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0145s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '370000'  [ RunTime:0.0009s ]
+
+[ 2016-07-07T09:17:34+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=370100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '370100'  [ RunTime:0.0011s ]
+
+[ 2016-07-07T09:17:36+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=370500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1441s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '370500'  [ RunTime:0.0011s ]
+
+[ 2016-07-07T09:18:10+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001990s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0268s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0007s ]
+
+[ 2016-07-07T09:18:11+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0608s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0011s ]
+
+[ 2016-07-07T09:18:12+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0018s ]
+
+[ 2016-07-07T09:21:05+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002865s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.1737s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-07T09:21:06+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:21:07+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0010s ]
+
+[ 2016-07-07T09:21:13+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=360000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '360000'  [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:21:14+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=360100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001567s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0571s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '360100'  [ RunTime:0.0011s ]
+
+[ 2016-07-07T09:21:16+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=360400
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001520s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0925s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '360400'  [ RunTime:0.0039s ]
+
+[ 2016-07-07T09:22:57+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-07T09:22:58+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.1465s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0011s ]
+
+[ 2016-07-07T09:22:59+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002548s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0034s ]
+
+[ 2016-07-07T09:23:02+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=360000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '360000'  [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:23:03+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=360100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '360100'  [ RunTime:0.0021s ]
+
+[ 2016-07-07T09:24:35+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001377s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0011s ]
+
+[ 2016-07-07T09:24:36+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0006s ]
+
+[ 2016-07-07T09:24:37+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0020s ]
+
+[ 2016-07-07T09:24:42+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=370000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.1586s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '370000'  [ RunTime:0.0006s ]
+
+[ 2016-07-07T09:24:43+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=370100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '370100'  [ RunTime:0.0011s ]
+
+[ 2016-07-07T09:24:44+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=370400
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '370400'  [ RunTime:0.0032s ]
+
+[ 2016-07-07T09:25:17+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0003s ]
+
+[ 2016-07-07T09:25:19+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0567s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0010s ]
+
+[ 2016-07-07T09:25:20+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0011s ]
+
+[ 2016-07-07T09:25:23+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=350000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '350000'  [ RunTime:0.0005s ]
+
+[ 2016-07-07T09:25:24+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=350100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '350100'  [ RunTime:0.0011s ]
+
+[ 2016-07-07T09:25:26+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=350400
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '350400'  [ RunTime:0.0012s ]
+
+[ 2016-07-07T09:25:51+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0161s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0008s ]
+
+[ 2016-07-07T09:31:27+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002626s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0065s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0006s ]
+
+[ 2016-07-07T09:31:31+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001652s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0063s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 12,6   [ RunTime:0.0006s ]
+
+[ 2016-07-07T09:31:33+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0006s ]
+
+[ 2016-07-07T09:31:36+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001600s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:33:04+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002736s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 12,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:34:53+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0052s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:34:56+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0075s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0006s ]
+
+[ 2016-07-07T09:34:57+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001435s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 12,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:35:01+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0062s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0005s ]
+
+[ 2016-07-07T09:35:57+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0215s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:36:03+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:36:04+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0658s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 12,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:36:07+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0098s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0008s ]
+
+[ 2016-07-07T09:36:10+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:36:12+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0104s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 12,6   [ RunTime:0.0008s ]
+
+[ 2016-07-07T09:36:15+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001871s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0005s ]
+
+[ 2016-07-07T09:36:17+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003928s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:36:20+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0056s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T09:37:45+08:00 ] 127.0.0.1 /index.php/Echarts/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'address' in 'field list'
+
+[ 2016-07-07T09:37:49+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0093s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0008s ]
+
+[ 2016-07-07T09:37:56+08:00 ] 127.0.0.1 /index.php/Echarts/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'address' in 'field list'
+
+[ 2016-07-07T09:37:58+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0119s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0010s ]
+
+[ 2016-07-07T10:15:21+08:00 ] 127.0.0.1 /index.php/Home/Api/weather
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2016-07-07T10:22:28+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0121s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0008s ]
+
+[ 2016-07-07T10:23:10+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0699s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0017s ]
+
+[ 2016-07-07T10:23:11+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002515s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0801s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0066s ]
+
+[ 2016-07-07T10:23:12+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1498s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0334s ]
+
+[ 2016-07-07T10:24:10+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=350000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001684s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0556s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '350000'  [ RunTime:0.0005s ]
+
+[ 2016-07-07T10:24:12+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=350100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '350100'  [ RunTime:0.0010s ]
+
+[ 2016-07-07T10:24:13+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=350500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '350500'  [ RunTime:0.0050s ]
+
+[ 2016-07-07T10:24:23+08:00 ] 127.0.0.1 /index.php/Echarts/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'address' in 'field list'
+
+[ 2016-07-07T10:24:25+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-07T10:24:26+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0666s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0026s ]
+
+[ 2016-07-07T10:24:27+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0577s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0037s ]
+
+[ 2016-07-07T10:31:35+08:00 ] 127.0.0.1 /index.php/Echarts/index.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chmake.province' doesn't exist
+
+[ 2016-07-07T10:34:08+08:00 ] 127.0.0.1 /index.php/Echarts/index.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.pro' at line 1
+
+[ 2016-07-07T10:34:21+08:00 ] 127.0.0.1 /index.php/Echarts/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'count' in 'field list'
+
+[ 2016-07-07T10:34:32+08:00 ] 127.0.0.1 /index.php/Echarts/index.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'field list'
+
+[ 2016-07-07T11:07:46+08:00 ] 127.0.0.1 /index.php/Home/Echarts/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001922s ]
+
+[ 2016-07-07T11:08:05+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003427s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.1721s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0007s ]
+
+[ 2016-07-07T11:34:24+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002733s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0653s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0028s ]
+
+[ 2016-07-07T11:50:21+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002979s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0068s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0015s ]
+
+[ 2016-07-07T11:51:36+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003636s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0523s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0010s ]
+
+[ 2016-07-07T11:53:00+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003114s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0623s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0017s ]
+
+[ 2016-07-07T11:53:37+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002429s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0590s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0008s ]
+
+[ 2016-07-07T11:56:47+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003330s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0655s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0022s ]
+
+[ 2016-07-07T11:59:13+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002608s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0541s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0011s ]
+
+[ 2016-07-07T11:59:44+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002784s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0148s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0022s ]
+
+[ 2016-07-07T12:00:12+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002843s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0625s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0022s ]
+
+[ 2016-07-07T12:00:19+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003023s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0124s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0017s ]
+
+[ 2016-07-07T12:02:27+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0048s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0010s ]
+
+[ 2016-07-07T12:02:59+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002192s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0053s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0006s ]
+
+[ 2016-07-07T12:04:05+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005246s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0092s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0012s ]
+
+[ 2016-07-07T12:05:06+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002716s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0076s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0012s ]
+
+[ 2016-07-07T12:05:10+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003358s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0380s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0006s ]
+
+[ 2016-07-07T12:05:34+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.1957s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0009s ]
+
+[ 2016-07-07T12:07:52+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002981s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0285s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0006s ]
+
+[ 2016-07-07T12:08:31+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004429s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0066s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0010s ]
+
+[ 2016-07-07T12:11:12+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006081s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.1170s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0008s ]
+
+[ 2016-07-07T12:11:25+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006543s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0067s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0013s ]
+
+[ 2016-07-07T12:11:40+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002463s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0147s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0007s ]
+
+[ 2016-07-07T12:11:48+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002683s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0131s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0012s ]
+
+[ 2016-07-07T12:25:22+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003446s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0582s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0016s ]
+
+[ 2016-07-07T12:27:59+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003916s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0585s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0007s ]
+
+[ 2016-07-07T12:33:25+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001957s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0587s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0010s ]
+
+[ 2016-07-07T12:33:40+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005076s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0053s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0009s ]
+
+[ 2016-07-07T12:34:00+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003379s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0062s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0010s ]
+
+[ 2016-07-07T12:34:34+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005107s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0052s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0007s ]
+
+[ 2016-07-07T12:35:07+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002594s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0073s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0011s ]
+
+[ 2016-07-07T12:35:21+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0060s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0010s ]
+
+[ 2016-07-07T12:35:36+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0065s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0006s ]
+
+[ 2016-07-07T12:39:42+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002992s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0538s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0007s ]
+
+[ 2016-07-07T12:40:00+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004407s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0054s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0007s ]
+
+[ 2016-07-07T12:41:11+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0530s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0009s ]
+
+[ 2016-07-07T12:41:32+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0051s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0009s ]
+
+[ 2016-07-07T12:42:27+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004310s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0055s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0007s ]
+
+[ 2016-07-07T12:42:39+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003808s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0606s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0010s ]
+
+[ 2016-07-07T12:44:33+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002917s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0072s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0012s ]
+
+[ 2016-07-07T12:49:21+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006616s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0058s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0007s ]
+
+[ 2016-07-07T12:50:59+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004204s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0139s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0839s ]
+
+[ 2016-07-07T12:51:17+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003146s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0005s ]
+
+[ 2016-07-07T12:51:47+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0141s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0011s ]
+
+[ 2016-07-07T12:52:03+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 6,6   [ RunTime:0.0007s ]
+
+[ 2016-07-07T12:52:05+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 12,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T12:52:08+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0053s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T12:53:03+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.1835s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0008s ]
+
+[ 2016-07-07T12:54:40+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003835s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0578s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0006s ]
+
+[ 2016-07-07T12:54:44+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002183s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0563s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0010s ]
+
+[ 2016-07-07T12:55:34+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004009s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0532s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0006s ]
+
+[ 2016-07-07T12:56:00+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004301s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0055s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0006s ]
+
+[ 2016-07-07T12:56:49+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008420s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0498s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0011s ]
+
+[ 2016-07-07T12:58:26+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001766s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0069s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0007s ]
+
+[ 2016-07-07T12:58:51+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006993s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.1130s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0006s ]
+
+[ 2016-07-07T13:00:03+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003216s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0546s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0006s ]
+
+[ 2016-07-07T13:00:24+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004811s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0545s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0006s ]
+
+[ 2016-07-07T14:28:38+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002998s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0073s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0013s ]
+
+[ 2016-07-07T14:43:36+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003541s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0057s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0015s ]
+
+[ 2016-07-07T14:44:04+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002984s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0714s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0007s ]
+
+[ 2016-07-07T14:44:25+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002721s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0062s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0007s ]
+
+[ 2016-07-07T14:45:25+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004409s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0535s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0006s ]
+
+[ 2016-07-07T14:50:45+08:00 ] 127.0.0.1 /index.php/Home/Echarts/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003095s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0656s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0011s ]
+
+[ 2016-07-07T14:51:03+08:00 ] 127.0.0.1 /index.php/Home/User/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003141s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0007s ]
+
+[ 2016-07-07T14:51:05+08:00 ] 127.0.0.1 /index.php/Home/User/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002882s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0909s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0137s ]
+
+[ 2016-07-07T14:51:06+08:00 ] 127.0.0.1 /index.php/Home/User/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0947s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0346s ]
+
+[ 2016-07-07T14:51:12+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003277s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0646s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0009s ]
+
+[ 2016-07-07T14:52:12+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002952s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0043s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0003s ]
+
+[ 2016-07-07T14:52:32+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0077s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('<img src=\"http://img.baidu.com/hi/jx2/j_0021.gif\" alt=\"j_0021.gif\" />我是第一个！','1467874351') [ RunTime:0.1427s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 18 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-07T14:53:00+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0118s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('<img src=\"http://img.baidu.com/hi/jx2/j_0016.gif\" alt=\"j_0016.gif\" />ajax局部刷新好厉害！','1467874378') [ RunTime:0.0991s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-07T14:53:26+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0092s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('<img src=\"http://img.baidu.com/hi/jx2/j_0062.gif\" alt=\"j_0062.gif\" />这个表情很好玩。','1467874405') [ RunTime:0.0867s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-07T14:53:33+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=-1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0095s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-6,6' at line 1
+
+[ 2016-07-07T14:53:34+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001647s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0012s ]
+
+[ 2016-07-07T14:53:35+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=-1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002387s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0070s ]
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-6,6' at line 1
+
+[ 2016-07-07T18:16:07+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002470s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0005s ]
+
+[ 2016-07-07T18:16:11+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003434s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0241s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0012s ]
+
+[ 2016-07-07T18:44:23+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.109471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.230634s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0007s ]
+
+[ 2016-07-07T20:03:00+08:00 ] 127.0.0.1 /Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002122s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002287s ]
+
+[ 2016-07-07T20:03:06+08:00 ] 127.0.0.1 /Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002132s ]
+
+[ 2016-07-07T20:04:08+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2016-07-07T20:04:12+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2016-07-07T20:04:20+08:00 ] 127.0.0.1 /index.php/Home/Author/addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043764s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2016-07-07T20:04:51+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0044s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0210s ]
+
+[ 2016-07-07T20:05:17+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2016-07-07T20:05:50+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001283s ]
+
+[ 2016-07-07T20:05:59+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008077s ]
+
+[ 2016-07-07T20:10:34+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0138s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0012s ]
+
+[ 2016-07-07T20:10:39+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002718s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0433s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T20:11:24+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002155s ]
+
+[ 2016-07-07T20:11:31+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002192s ]
+
+[ 2016-07-07T20:11:42+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002932s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0106s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0007s ]
+
+[ 2016-07-07T20:12:01+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002405s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0163s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0008s ]
+
+[ 2016-07-07T20:12:03+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002142s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0118s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0010s ]
+
+[ 2016-07-07T20:12:16+08:00 ] 127.0.0.1 /index.php/Home/Author/getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001825s ]
+
+[ 2016-07-07T20:13:21+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003082s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.1651s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0010s ]
+
+[ 2016-07-07T20:13:24+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T20:49:50+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003085s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0160s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0010s ]
+
+[ 2016-07-07T20:49:52+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002753s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0147s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0010s ]
+
+[ 2016-07-07T20:52:18+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002725s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-07T20:52:27+08:00 ] 127.0.0.1 /index.php/Home-Echarts-province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002020s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0747s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.4174s ]
+
+[ 2016-07-07T20:54:13+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002541s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0845s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0009s ]
+

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href="<{:C('CSS_URL')}>bootstrap.min.css" type="text/css" rel="stylesheet">
+  <link href="<{:C('CSS_URL')}>style.css" type="text/css" rel="stylesheet">
+  <link type="text/css" href="<{:C('CSS_URL')}>bootstrapValidator.min.css" rel="stylesheet">
+  <script src="<{:C('JS_URL')}>jquery-2.1.4.min.js" type="text/javascript"></script>
+  <link rel="apple-touch-icon-precomposed" href="<{:C('IMG_URL')}>icon/icon.png">
+  <link rel="shortcut icon" href="<{:C('IMG_URL')}>icon/favicon.ico">
+  <meta name="Keywords" content=""/>
+  <meta name="description" content=""/>
+</head>
+<!--导航条开始-->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation"
+     style="background-color:#dddddd;border-bottom: none;">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar">
+        <span class="sr-only"><a href="<{:U('Index/index')}>">Toggle navigation</a></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+
+      </button>
+      <a class="navbar-brand" href="<{:U('Index/index')}>">Age of Technology</a>
+    </div>
+    <div class="collapse  navbar-collapse" id="demo-navbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="<{:U('Home/Index/index')}>">前台首页</a></li>
+        <li><a href="#">简述</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--导航条结束-->
+
+  <!--主体页面开始-->
+  <div class="row">
+
+
+
+    <script src="<{:C('JS_URL')}>bootstrap.min.js" type="text/javascript"></script>
+    <script src="<{:C('JS_URL')}>form/bootstrapValidator.min.js" type="text/javascript"></script>
+
+    {__CONTENT__}
+
+    <!--底部栏开始-->
+    <div class="container-fluid">
+      <div class="col-md-12">
+        <footer class="footer"><p class="text-info text-center">POWERED BY &copy;<a href="http://www.chmake.cn">尘剑隐芒
+          chmake.cn</a>&nbsp;&nbsp;&nbsp;<span><a href="http://www.miitbeian.gov.cn/"
+                                                  target="_blank">京ICP备16033390号-1</a></span></p></footer>
+      </div>
+    </div>
+    <!--底部栏结束-->
+
+    <div><a href="javascript:;" class="gotop" style="display:none;" title="返回顶部"></a></div>
+    <!--/返回顶部-->
+    <script src="<{:C('JS_URL')}>form/register.js" type="text/javascript"></script>
+    <script src="<{:C('JS_URL')}>form/login.js" type="text/javascript"></script>
+    <script src="<{:C('JS_URL')}>weight.js" type="text/javascript"></script>
+
+</html>

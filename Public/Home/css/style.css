@@ -1,0 +1,81 @@
+body {
+  padding-top: 50px;
+}
+#carousel-example-generic img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#btn1,#btn2,#btn3,#btn4{
+  position: relative;
+  top:50px;
+  right:250px;
+}
+.carousel {
+  height: 250px;
+  background-color: #000;
+}
+
+.carousel .item {
+  height: 250px;
+  background-color: #000;
+}
+
+
+/*返回顶部样式开始*/
+.gotop {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(../images/backtop.png) no-repeat 0 0;
+  opacity: 0.5;
+}
+
+.gotop:hover {
+  background: url(../images/backtop.png) no-repeat 0 -52px;
+}
+
+/*底部样式开始*/
+.footer {
+  clear: both;
+  color: #AAA;
+  position: relative;
+  padding: 20px 0 30px 0px;
+  border-top: 2px solid #eee;
+  font-size: 14px;
+}
+
+@media (max-width: 560px) {
+  .footer span {
+    display: block;
+  }
+}
+
+.footer {
+  color: #FFFFFF;
+  height: 40px;
+  background-color: #ccc;
+}
+#code{
+  position: relative;
+  width: 180px;
+  top: 20px;
+  left: 6px;
+}
+#code img{
+  width: 180px;
+}
+#code span{
+  padding-left: 28px;
+  display: block;
+}
+nav a{
+  margin-left: 10px;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}

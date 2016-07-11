@@ -1,0 +1,1954 @@
+[ 2016-07-11T00:13:43+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004781s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0516s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0004s ]
+
+[ 2016-07-11T00:13:44+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003740s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0580s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0009s ]
+
+[ 2016-07-11T00:15:35+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003851s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0559s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0004s ]
+
+[ 2016-07-11T00:15:36+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005955s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1499s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2016-07-11T00:15:40+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005052s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0567s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '16' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2016-07-11T00:15:47+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003896s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0615s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0012s ]
+
+[ 2016-07-11T00:15:48+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004500s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1715s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-07-11T00:16:29+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004786s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0648s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 2  [ RunTime:0.0011s ]
+
+[ 2016-07-11T00:16:32+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003424s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 2  [ RunTime:0.0007s ]
+
+[ 2016-07-11T00:16:33+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002960s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 1  [ RunTime:0.0017s ]
+
+[ 2016-07-11T00:16:35+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004327s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0553s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 1  [ RunTime:0.0004s ]
+
+[ 2016-07-11T00:16:36+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002789s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0635s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 4  [ RunTime:0.0008s ]
+
+[ 2016-07-11T00:16:38+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004373s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0577s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 3  [ RunTime:0.0005s ]
+
+[ 2016-07-11T00:16:40+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005074s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 3  [ RunTime:0.0006s ]
+
+[ 2016-07-11T00:16:41+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002810s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0322s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 7  [ RunTime:0.0010s ]
+
+[ 2016-07-11T00:16:43+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004694s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0655s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 7  [ RunTime:0.0012s ]
+
+[ 2016-07-11T07:55:04+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003544s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0009s ]
+
+[ 2016-07-11T07:55:06+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002628s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0141s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0022s ]
+
+[ 2016-07-11T08:25:11+08:00 ] 127.0.0.1 /index.php/Home-Api-weather
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002604s ]
+
+[ 2016-07-11T08:55:10+08:00 ] 127.0.0.1 /index.php/Home-Api-weather
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002128s ]
+
+[ 2016-07-11T09:22:11+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003174s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0006s ]
+
+[ 2016-07-11T09:22:12+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002902s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0061s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2016-07-11T09:27:16+08:00 ] 127.0.0.1 /index.php/Home-Author-addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0055s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('','1468200435') [ RunTime:0.1837s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-11T09:30:48+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002067s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001288s ]
+
+[ 2016-07-11T09:30:52+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003335s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2016-07-11T09:31:52+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002278s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2016-07-11T09:47:36+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002150s ]
+
+[ 2016-07-11T09:48:06+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001757s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001816s ]
+
+[ 2016-07-11T09:48:11+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002413s ]
+
+[ 2016-07-11T09:48:16+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002957s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001662s ]
+
+[ 2016-07-11T09:49:36+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002523s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002237s ]
+
+[ 2016-07-11T09:51:24+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002664s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2016-07-11T09:51:27+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002741s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001974s ]
+
+[ 2016-07-11T09:52:04+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002292s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0115s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','测试版','测试版本','1468201923') [ RunTime:0.1079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004454s ]
+
+[ 2016-07-11T09:52:09+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001985s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0053s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','测试版','测试版本','1468201928') [ RunTime:0.1190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002116s ]
+
+[ 2016-07-11T09:52:34+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002102s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0051s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsfsadfsd','sdfsdfsdfsdfsd','1468201953') [ RunTime:0.0789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001598s ]
+
+[ 2016-07-11T09:52:37+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0054s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsfsadfsd','sdfsdfsdfsdfsd','1468201956') [ RunTime:0.1322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2016-07-11T09:54:07+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001434s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0049s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdfsdf','sdfsdfsdfads','1468202046') [ RunTime:0.0714s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2016-07-11T09:55:00+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002797s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0550s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdfsdf','sdfsfsfdsf','1468202099') [ RunTime:0.0770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002116s ]
+
+[ 2016-07-11T09:55:27+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004085s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0521s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0004s ]
+
+[ 2016-07-11T09:55:28+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006649s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0053s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0009s ]
+
+[ 2016-07-11T09:58:21+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003181s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0598s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','dsfdsgdfg','dfgdgdfg','1468202300') [ RunTime:0.0768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001937s ]
+
+[ 2016-07-11T09:58:39+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003485s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0071s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdf','sdfsdfsdf','1468202318') [ RunTime:0.0884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003107s ]
+
+[ 2016-07-11T09:59:17+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0600s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfdsfsd','fsfsafsfsf','1468202356') [ RunTime:0.0660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001858s ]
+
+[ 2016-07-11T10:03:35+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002810s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0490s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','rwerwer','werwer','1468202614') [ RunTime:0.0994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002671s ]
+
+[ 2016-07-11T10:04:02+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002555s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0077s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdfsd','dsfsfsdfsd','1468202641') [ RunTime:0.0973s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002152s ]
+
+[ 2016-07-11T10:04:38+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002657s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0099s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsfsf','sdfsdfsdf','1468202677') [ RunTime:0.1370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003708s ]
+
+[ 2016-07-11T10:08:21+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002522s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0127s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdf','sfsfasdf','1468202900') [ RunTime:0.0864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006605s ]
+
+[ 2016-07-11T10:08:43+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002170s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0063s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sfsdf','sfsdf','1468202922') [ RunTime:0.0936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001990s ]
+
+[ 2016-07-11T10:09:34+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0056s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsfsdf','sdfsdfsdf','1468202973') [ RunTime:0.0790s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2016-07-11T10:10:17+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002475s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0556s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdf','sdfsdfsd','1468203016') [ RunTime:0.1103s ]
+
+[ 2016-07-11T10:12:50+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003800s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+
+[ 2016-07-11T10:12:54+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+
+[ 2016-07-11T10:14:07+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002944s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+
+[ 2016-07-11T10:14:08+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+
+[ 2016-07-11T10:14:14+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002429s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0138s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdf','sdfsdf','1468203253') [ RunTime:0.0912s ]
+
+[ 2016-07-11T10:14:50+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0051s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdf','sdfsdf','1468203289') [ RunTime:0.1020s ]
+
+[ 2016-07-11T10:14:52+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0533s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdf','sdfsdf','1468203291') [ RunTime:0.0777s ]
+
+[ 2016-07-11T10:15:44+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001940s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001186s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2016-07-11T10:15:48+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-07-11T10:15:53+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001521s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0053s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsfsdfds','sdfsdfsdf','1468203352') [ RunTime:0.1692s ]
+
+[ 2016-07-11T10:16:56+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002450s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0551s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdf','sdfsdfd','1468203415') [ RunTime:0.0543s ]
+
+[ 2016-07-11T10:17:13+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004606s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0615s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdf','sdfsdf','1468203432') [ RunTime:0.0651s ]
+
+[ 2016-07-11T10:17:38+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002343s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0047s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfdsf','sdfsdfsdf','1468203457') [ RunTime:0.0890s ]
+
+[ 2016-07-11T10:17:55+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0808s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfdsf','sdfsdfsdfsdfsdf','1468203474') [ RunTime:0.0540s ]
+
+[ 2016-07-11T10:36:17+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002521s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1592s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdf','sdfsdf','1468204575') [ RunTime:0.1237s ]
+
+[ 2016-07-11T10:38:45+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002069s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1392s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdf','sdfsdfsdf','1468204724') [ RunTime:0.0784s ]
+
+[ 2016-07-11T10:39:19+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001983s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0172s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsfsd','fsdfsdfsadf','1468204758') [ RunTime:0.0588s ]
+
+[ 2016-07-11T10:40:05+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1818s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdf','sdfsdf','1468204804') [ RunTime:0.0641s ]
+
+[ 2016-07-11T10:43:38+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002101s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0450s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdf','sdfsdfsdfsd','1468205017') [ RunTime:0.1537s ]
+
+[ 2016-07-11T10:44:00+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002454s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1443s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdf','sdfsdf','1468205039') [ RunTime:0.0679s ]
+
+[ 2016-07-11T10:45:22+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001925s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0503s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdfsa','sdfsadfsdfsdf','1468205121') [ RunTime:0.0771s ]
+
+[ 2016-07-11T10:45:57+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0593s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsdfsd','fsdfsdfsdf','1468205156') [ RunTime:0.0771s ]
+
+[ 2016-07-11T10:46:27+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001932s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0059s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','sdfsfsdf','sdfsdfsdfsdf','1468205185') [ RunTime:0.0855s ]
+
+[ 2016-07-11T10:49:10+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004139s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0003s ]
+
+[ 2016-07-11T10:49:11+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003896s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0526s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0011s ]
+
+[ 2016-07-11T10:50:43+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008726s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0544s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 3  [ RunTime:0.0005s ]
+
+[ 2016-07-11T11:04:27+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0610s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','lamp-apache安装','1.安装依赖包<br />yum install gcc zlib zlib-devel pcre pcre-devel apr apr-devel apr-util apr-util-devel -y2.下载httpd到/usr/local/src/cd /usr/local/src/wget http://mirrors.sohu.com/apache/httpd-2.4.20.tar.gz3.解压httpdtar -zxvf httpd-2.2.31.tar.gz4.进入/usr/local/src/httpd-2.2.31/目录进行./configure配置检查cd /usr/local/src/httpd-2.2.31/./configure --prefix=/usr/local/apache --enable-module=so --enable-deflate=shared --enable-expires=shared --enable-rewrite=shared --with-mpm=worker#--prefix=/usr/local/apache //指定apache的安装路径#--enable-module=so //打开 so 模块，so 模块是用来提 DSO 支持的 apache 核心模块#--enable-deflate=shared //支持网页压缩#--enable-expires=shared //支持 HTTP 控制#--enable-rewrite=shared //支持 URL 重写#--with-mpm=worker //让apache以worker方式运行如果需要更多的参数，可以使用./configure –help 查看更多参数5.make安装make &amp;&amp; echo $?最后一行显示为0 即为正确make install &amp;&amp; echo $?最后一行显示为0即为正确6.检查apache配置文件是否正确/usr/local/apache/bin/apachectl -t提示以下信息：httpd: apr_sockaddr_info_get() failed for host5.localdomainhttpd: Could not reliably determine the server’s fully qualified domain name, using 127.0.0.1 for ServerNameSyntax OK这个问题是由于在配置文件/usr/local/apache/conf/httpd.conf 中没有设置ServerName，所以apache会用主机上的名称来取代，读取/etc/hosts文件检查是否有定义。解决这个问题有两个方法：（1）编辑/etc/hosts文件 不常用（2）编辑apache配置文件/usr/local/apache/conf/httpd.confvim /usr/local/apache/conf/httpd.conf找到 #ServerName www.example.com:80去掉前面的注释并修改为 ServerName localhost:80重新检查配置文件/usr/local/apache/bin/apachectl -t显示Syntax OK7.设置环境变量vi /root/.bash_profile将/usr/local/apache/bin添加进PATH中PATH=/usr/local/apache/bin:/usr/local/mysql/bin:$PATH:$HOME/bin8.启动apacheapachectl startnetstat -atnlp | grep 80 查看系统是否监听80端口ps -ef | grep httpd 查看httpd进程9.浏览器访问在浏览器中输入http://ip界面显示内容为It works! 恭喜你！你的apache安装成功了。','1468206266') [ RunTime:0.1098s ]
+
+[ 2016-07-11T11:05:36+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002842s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0612s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0012s ]
+
+[ 2016-07-11T11:05:37+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004909s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0104s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0017s ]
+
+[ 2016-07-11T11:05:47+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=51
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002851s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0580s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '51' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0010s ]
+
+[ 2016-07-11T11:06:01+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003330s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0948s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0007s ]
+
+[ 2016-07-11T11:06:02+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004153s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0047s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0005s ]
+
+[ 2016-07-11T11:06:06+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=51
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003715s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0623s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '51' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0012s ]
+
+[ 2016-07-11T11:06:21+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006346s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0555s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0007s ]
+
+[ 2016-07-11T11:06:22+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003545s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0634s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0011s ]
+
+[ 2016-07-11T11:06:30+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=51
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004520s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0051s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '51' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2016-07-11T11:06:33+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004408s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0879s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0011s ]
+
+[ 2016-07-11T11:06:34+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005190s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0619s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-11T11:06:42+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=51
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005640s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0515s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '51' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0008s ]
+
+[ 2016-07-11T11:06:44+08:00 ] 127.0.0.1 /index.php/Home-Article-add_doll?article_id=51
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002034s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0156s ]
+SQL: UPDATE `ch_article` SET `ac_doll`=ac_doll+1 WHERE `article_id` = 51 [ RunTime:0.0690s ]
+SQL: SELECT `ac_doll` FROM `ch_article` WHERE `article_id` = 51 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-07-11T11:06:47+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004950s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0004s ]
+
+[ 2016-07-11T11:06:48+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004900s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0562s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-11T11:07:32+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002823s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0888s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0008s ]
+
+[ 2016-07-11T11:07:33+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003433s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0073s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-11T11:07:41+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=51
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0469s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '51' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0009s ]
+
+[ 2016-07-11T11:08:57+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002668s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0641s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0011s ]
+
+[ 2016-07-11T11:08:58+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002265s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0066s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2016-07-11T11:09:10+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002886s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0006s ]
+
+[ 2016-07-11T11:09:11+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003048s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0663s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-11T11:09:22+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002972s ]
+
+[ 2016-07-11T11:09:34+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002894s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0642s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','lamp','cd /usr/local/src/wget ftp://www.ehaomiao.cn/apache/httpd-2.2.31.tar.gz3.解压httpdtar -zxvf httpd-2.2.31.tar.gz4.进入/usr/local/src/httpd-2.2.31/目录进行./configure配置检查cd /usr/local/src/httpd-2.2.31/./configure –prefix=/usr/local/apache –enable-module=so –enable-deflate=shared –enable-expires=shared –enable-rewrite=shared –with-mpm=worker#–prefix=/usr/local/apache //指定apache的安装路径#–enable-module=so //打开 so 模块，so 模块是用来提 DSO 支持的 apache 核心模块#–enable-deflate=shared //支持网页压缩#–enable-expires=shared //支持 HTTP 控制#–enable-rewrite=shared //支持 URL 重写#–with-mpm=worker //让apache以worker方式运行如果需要更多的参数，可以使用./configure –help 查看更多参数5.make安装make &amp;&amp; echo $?最后一行显示为0 即为正确make install &amp;&amp; echo $?最后一行显示为0即为正确6.检查apache配置文件是否正确/usr/local/apache/bin/apachectl -t提示以下信息：httpd: apr_sockaddr_info_get() failed for host5.localdomainhttpd: Could not reliably determine the server’s fully qualified domain name, using 127.0.0.1 for ServerNameSyntax OK这个问题是由于在配置文件/usr/local/apache/conf/httpd.conf 中没有设置ServerName，所以apache会用主机上的名称来取代，读取/etc/hosts文件检查是否有定义。解决这个问题有两个方法：（1）编辑/etc/hosts文件 不常用（2）编辑apache配置文件/usr/local/apache/conf/httpd.confvim /usr/local/apache/conf/httpd.conf找到 #ServerName www.example.com:80去掉前面的注释并修改为 ServerName localhost:80重新检查配置文件/usr/local/apache/bin/apachectl -t显示Syntax OK7.设置环境变量vi /root/.bash_profile将/usr/local/apache/bin添加进PATH中PATH=/usr/local/apache/bin:/usr/local/mysql/bin:$PATH:$HOME/bin8.启动apacheapachectl startnetstat -atnlp | grep 80 查看系统是否监听80端口ps -ef | grep httpd 查看httpd进程9.浏览器访问在浏览器中输入http://ip界面显示内容为It works! 恭喜你！你的apache安装成功了。如果想要更改显示内容默认的页面文件路径为/usr/local/apache/htdocs/具体的内容我们以后再唠！！！<br />','1468206573') [ RunTime:0.0628s ]
+
+[ 2016-07-11T11:09:41+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003086s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0014s ]
+
+[ 2016-07-11T11:09:42+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004170s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0653s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0013s ]
+
+[ 2016-07-11T11:09:48+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=52
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003599s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0652s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '52' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2016-07-11T11:10:38+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=52
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002653s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0389s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '52' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2016-07-11T11:10:41+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003717s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0608s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0006s ]
+
+[ 2016-07-11T11:10:42+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003435s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0581s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0009s ]
+
+[ 2016-07-11T11:10:59+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001872s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0597s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','lamp','<p>cd /usr/local/src/</p><p>wget ftp://www.ehaomiao.cn/apache/httpd-2.2.31.tar.gz</p><p>3.解压httpd</p><p>tar -zxvf httpd-2.2.31.tar.gz</p><p>4.进入/usr/local/src/httpd-2.2.31/目录进行./configure配置检查</p><p>cd /usr/local/src/httpd-2.2.31/</p><p>./configure –prefix=/usr/local/apache –enable-module=so –enable-deflate=shared –enable-expires=shared –enable-rewrite=shared –with-mpm=worker</p><p>#–prefix=/usr/local/apache //指定apache的安装路径</p><p>#–enable-module=so //打开 so 模块，so 模块是用来提 DSO 支持的 apache 核心模块</p><p>#–enable-deflate=shared //支持网页压缩</p><p>#–enable-expires=shared //支持 HTTP 控制</p><p>#–enable-rewrite=shared //支持 URL 重写</p><p>#–with-mpm=worker //让apache以worker方式运行</p><p>如果需要更多的参数，可以使用./configure –help 查看更多参数</p><p>5.make安装</p><p>make &amp;&amp; echo $?</p><p>最后一行显示为0 即为正确</p><p>make install &amp;&amp; echo $?</p><p>最后一行显示为0即为正确</p><p>6.检查apache配置文件是否正确</p><p>/usr/local/apache/bin/apachectl -t</p><p>提示以下信息：</p><p>httpd: apr_sockaddr_info_get() failed for host5.localdomain</p><p>httpd: Could not reliably determine the server’s fully qualified domain name, using 127.0.0.1 for ServerName</p><p>Syntax OK</p><p>这个问题是由于在配置文件/usr/local/apache/conf/httpd.conf 中没有设置ServerName，所以apache会用主机上的名称来取代，读取/etc/hosts文件检查是否有定义。</p><p>解决这个问题有两个方法：</p><p>（1）编辑/etc/hosts文件 不常用</p><p>（2）编辑apache配置文件/usr/local/apache/conf/httpd.conf</p><p>vim /usr/local/apache/conf/httpd.conf</p><p>找到 #ServerName www.example.com:80去掉前面的注释</p><p>并修改为 ServerName localhost:80</p><p>重新检查配置文件</p><p>/usr/local/apache/bin/apachectl -t</p><p>显示Syntax OK</p><p>7.设置环境变量</p><p>vi /root/.bash_profile</p><p>将/usr/local/apache/bin添加进PATH中</p><p>PATH=/usr/local/apache/bin:/usr/local/mysql/bin:$PATH:$HOME/bin</p><p>8.启动apache</p><p>apachectl start</p><p>netstat -atnlp | grep 80 查看系统是否监听80端口</p><p>ps -ef | grep httpd 查看httpd进程</p><p>9.浏览器访问</p><p>在浏览器中输入http://ip</p><p>界面显示内容为It works! 恭喜你！你的apache安装成功了。</p><p>如果想要更改显示内容默认的页面文件路径为/usr/local/apache/htdocs/</p><p>具体的内容我们以后再唠！！！</p><p><br/></p>','1468206658') [ RunTime:0.1293s ]
+
+[ 2016-07-11T11:11:05+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003175s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0009s ]
+
+[ 2016-07-11T11:11:06+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004068s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0078s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-11T11:11:10+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=53
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003130s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0561s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '53' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2016-07-11T11:11:58+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003674s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0539s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0012s ]
+
+[ 2016-07-11T11:11:59+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006445s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0084s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0017s ]
+
+[ 2016-07-11T11:13:58+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002272s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0583s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','lamp-apache安装','<p>1.安装依赖包</p><p>yum install gcc zlib zlib-devel pcre pcre-devel apr apr-devel apr-util apr-util-devel -y</p><p>2.下载httpd到/usr/local/src/</p><p>cd /usr/local/src/</p><p>wget http://mirrors.sohu.com/apache/httpd-2.4.20.tar.gz</p><p>3.解压httpd</p><p>tar -zxvf httpd-2.2.31.tar.gz</p><p>4.进入/usr/local/src/httpd-2.2.31/目录进行./configure配置检查</p><p>cd /usr/local/src/httpd-2.2.31/</p><p>./configure --prefix=/usr/local/apache --enable-module=so --enable-deflate=shared --enable-expires=shared --enable-rewrite=shared --with-mpm=worker</p><p>#--prefix=/usr/local/apache //指定apache的安装路径</p><p>#--enable-module=so //打开 so 模块，so 模块是用来提 DSO 支持的 apache 核心模块</p><p>#--enable-deflate=shared //支持网页压缩</p><p>#--enable-expires=shared //支持 HTTP 控制</p><p>#--enable-rewrite=shared //支持 URL 重写</p><p>#--with-mpm=worker //让apache以worker方式运行</p><p>如果需要更多的参数，可以使用./configure –help 查看更多参数</p><p>5.make安装</p><p>make &amp;&amp; echo $?</p><p>最后一行显示为0 即为正确</p><p>make install &amp;&amp; echo $?</p><p>最后一行显示为0即为正确</p><p>6.检查apache配置文件是否正确</p><p>/usr/local/apache/bin/apachectl -t</p><p>提示以下信息：</p><p>httpd: apr_sockaddr_info_get() failed for host5.localdomain</p><p>httpd: Could not reliably determine the server’s fully qualified domain name, using 127.0.0.1 for ServerName</p><p>Syntax OK</p><p>这个问题是由于在配置文件/usr/local/apache/conf/httpd.conf 中没有设置ServerName，所以apache会用主机上的名称来取代，读取/etc/hosts文件检查是否有定义。</p><p>解决这个问题有两个方法：</p><p>（1）编辑/etc/hosts文件 不常用</p><p>（2）编辑apache配置文件/usr/local/apache/conf/httpd.conf</p><p>vim /usr/local/apache/conf/httpd.conf</p><p>找到 #ServerName www.example.com:80去掉前面的注释</p><p>并修改为 ServerName localhost:80</p><p>重新检查配置文件</p><p>/usr/local/apache/bin/apachectl -t</p><p>显示Syntax OK</p><p>7.设置环境变量</p><p>vi /root/.bash_profile</p><p>将/usr/local/apache/bin添加进PATH中</p><p>PATH=/usr/local/apache/bin:/usr/local/mysql/bin:$PATH:$HOME/bin</p><p>8.启动apache</p><p>apachectl start</p><p>netstat -atnlp | grep 80 查看系统是否监听80端口</p><p>ps -A | grep httpd 查看httpd进程</p><p>9.浏览器访问</p><p>在浏览器中输入http://ip地址</p><p>界面显示内容为It works! 恭喜你！你的apache安装成功了。</p><p><br/></p>','1468206837') [ RunTime:0.0753s ]
+
+[ 2016-07-11T11:14:03+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003159s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0622s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0013s ]
+
+[ 2016-07-11T11:14:04+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002785s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0122s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0019s ]
+
+[ 2016-07-11T11:14:11+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0597s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '54' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0012s ]
+
+[ 2016-07-11T11:14:20+08:00 ] 127.0.0.1 /index.php/Home-Article-add_doll?article_id=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0561s ]
+SQL: UPDATE `ch_article` SET `ac_doll`=ac_doll+1 WHERE `article_id` = 54 [ RunTime:0.2055s ]
+SQL: SELECT `ac_doll` FROM `ch_article` WHERE `article_id` = 54 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-07-11T11:14:21+08:00 ] 127.0.0.1 /index.php/Home-Article-add_doll?article_id=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-07-11T11:14:41+08:00 ] 127.0.0.1 /index.php/Home-Article-addComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0566s ]
+SQL: INSERT INTO `ch_comment` (`comcontent`,`comm_time`,`user_id`,`article_id`) VALUES ('<img src=\"http://img.baidu.com/hi/jx2/j_0017.gif\" alt=\"j_0017.gif\" />好详细啊','1468206881','1','54') [ RunTime:0.0460s ]
+SQL: SELECT c.*,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id= c.user_id  WHERE `comment_id` = '40' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-07-11T11:15:16+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004589s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0496s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '54' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2016-07-11T11:15:22+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005195s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0007s ]
+
+[ 2016-07-11T11:15:23+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002227s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0148s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0019s ]
+
+[ 2016-07-11T11:20:06+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0580s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','lamp-mysql安装','<p>1.下载mysql到/usr/local/src/<br/></p><p>cd /usr/local/src/</p><p>wget http://mirrors.sohu.com/mysql/MySQL-5.5/mysql-5.5.50-linux2.6-i686.tar.gz</p><p>2.解压数据到/usr/local/</p><p>tar -zxvf mysql-5.1.73-linux-i686-glibc23.tar.gz -C /usr/local/</p><p>3.重命名目录</p><p>cd /usr/local/</p><p>mv mysql-5.1.73-linux-i686-glibc23 /usr/local/mysql</p><p>4.建立mysql用户和组</p><p>useradd -s /sbin/nologin mysql</p><p>5.更改文件属组属主</p><p>chown mysql:mysql /usr/local/mysql -R</p><p>6.创建数据库数据存储目录，并复制默认数据，更改属主</p><p>mkdir -p /data/mydata</p><p>cp -r /usr/local/mysql/data/* /data/mydata</p><p>chown mysql /data/mydata</p><p>7.初始化数据库</p><p>cd /usr/local/mysql</p><p>./scripts/mysql_install_db --user=mysql --basedir=/usr/local/mysql --datadir=/data/mydata</p><p>初始化过程返回两个“OK”的状态，即为初始化正确</p><p>#--user=运行mysql的用户</p><p>#--basedir=数据库文件所在目录</p><p>#--datadir=数据存储目录 ，默认的存储位置为/usr/local/mysql/data</p><p>echo $? &nbsp;#查看初始化是否成功，返回结果为0即为成功</p><p>8.更改文件的属主为root</p><p>chown root /usr/local/mysql -R</p><p>9.拷贝配置文件</p><p>cd /usr/local/mysql</p><p>cp support-files/my-medium.cnf /etc/my.cnf</p><p>vim /etc/my.cnf</p><p>在【mysqld】下添加</p><p>datadir = /data/mydata</p><p>10.拷贝启动脚本</p><p>cd /usr/local/mysql</p><p>cp support-files/mysql.server /etc/init.d/mysqld</p><p>vim /etc/init.d/mysqld</p><p>添加以下两行</p><p>datadir=/data/mydata &nbsp; #前面初始化数据库时定义的目录</p><p>basedir=/usr/local/mysql &nbsp; #安装目录</p><p>11.把启动脚本加入系统服务项，并设定开机启动，启动mysql</p><p>chkconfig -add mysqld &nbsp; &nbsp; #添加至系统服务</p><p>chkconfig mysqld on &nbsp; &nbsp; &nbsp; &nbsp;#设置开机启动</p><p>chkconfig -list mysqld &nbsp; &nbsp;#查看开机启动是否设置成功 ”345=on“</p><p>service mysqld start &nbsp; &nbsp; &nbsp; #立刻启动mysqld</p><p>netstat -antpl | grep 3306 #查看系统是否监听3306端口</p><p>12.设置环境变量</p><p>vi /root/.bash_profile</p><p>将PATH=$PATH:$HOME/bin改为：</p><p>PATH=/usr/local/mysql/bin:$PATH:$HOME/bin</p><p>source /root/.bash_profile （重读生效.bash_profile）</p><p>13.设置mysql数据库用户名密码</p><p>mysqladmin -u root password</p><p>14.登录mysql</p><p>mysql -uroot -p</p><p><br/></p>','1468207205') [ RunTime:0.1175s ]
+
+[ 2016-07-11T11:20:12+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002837s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0012s ]
+
+[ 2016-07-11T11:20:13+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005066s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0557s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-11T11:20:27+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003215s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0653s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '55' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0013s ]
+
+[ 2016-07-11T11:20:37+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003068s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1659s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0018s ]
+
+[ 2016-07-11T11:20:39+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003654s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0019s ]
+
+[ 2016-07-11T11:25:02+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004134s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0006s ]
+
+[ 2016-07-11T11:25:03+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003792s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0145s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0021s ]
+
+[ 2016-07-11T11:25:07+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005680s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.1394s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '55' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2016-07-11T11:26:31+08:00 ] 127.0.0.1 /index.php/Home-Article-write
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0624s ]
+SQL: INSERT INTO `ch_article` (`user_id`,`ac_title`,`ac_content`,`ac_time`) VALUES ('1','lamp-php安装','<p>1.下载php程序文件到/usr/local/src</p><p>cd /usr/local/src</p><p>wget http://mirrors.sohu.com/php/php-5.4.45.tar.gz</p><p>2.解压php程序包</p><p>cd /usr/local/src</p><p>tar -zxvf php-5.4.24.tar.gz</p><p>3.安装php依赖程序包</p><p>yum install libxml2-devel openssl openssl-devel bzip2 bzip2-devel libpng libpng-devel freetype freetype-devel libjpeg libjpeg-devel -y</p><p>除了上述安装的依赖包之外php还需要php-mcrypt &nbsp;libmcrypt &nbsp;libmcrypt-devel这三个依赖包</p><p>但是在centos6的yum源中没有这三个包，所以我们需要安装第三方yum源，安装方法如下：</p><p>下载第三方yum源的设置脚本：</p><p>wget http://www.atomicorp.com/installers/atomic</p><p>运行该脚本：</p><p>sh ./atomic</p><p>下载php-mcrypt &nbsp;libmcrypt &nbsp;libmcrypt-devel</p><p>yum &nbsp;install &nbsp;php-mcrypt &nbsp;libmcrypt &nbsp;libmcrypt-devel -y</p><p>4.执行./configure配置文件检查</p><p>cd /usr/local/src/php-5.4.24</p><p>./configure \\</p><p>--prefix=/usr/local/php \\</p><p>--with-apxs2=/usr/local/apache/bin/apxs \\</p><p>--with-config-file-path=/usr/local/php/etc &nbsp;\\</p><p>--with-mysql=/usr/local/mysql \\</p><p>--with-libxml-dir \\</p><p>--with-gd \\</p><p>--with-jpeg-dir \\</p><p>--with-png-dir \\</p><p>--with-freetype-dir \\</p><p>--with-iconv-dir \\</p><p>--with-zlib-dir \\</p><p>--with-bz2 \\</p><p>--with-openssl \\</p><p>--with-mcrypt \\</p><p>--enable-soap \\</p><p>--enable-gd-native-ttf \\</p><p>--enable-mbstring \\</p><p>--enable-sockets \\</p><p>--enable-exif \\</p><p>--disable-ipv6</p><p>5.安装php</p><p>make &amp;&amp; echo $?</p><p>最后一行显示为“0” 即为安装正确</p><p>make insatll &amp;&amp; echo $?</p><p>最后一行显示为“0” 即为安装正确</p><p>6.拷贝配置文件</p><p>默认编译安装的php不会生成配置文件，所以需要我们手动复制一份配置文件到/usr/local/php/etc/下</p><p>cd /usr/local/src/php-5.4.24</p><p>cp php.ini-production /usr/local/php/etc/php.ini</p><p>7.配置apache解析php</p><p>默认情况下apache是不会解析php文件的，需要我们修改apache的配置文件</p><p>vim /usr/local/apache/conf/httpd.conf</p><p>找到</p><p>AddType application/x-gzip .gz .tgz</p><p>在改行下面添加</p><p>AddType application/x-httpd-php .php</p><p>再找到</p><p>&lt;IfModule dir_module&gt;</p><p>DirectoryIndex index.html</p><p>&lt;/IfModule&gt;</p><p>把中间的一行该为</p><p>DirectoryIndex index.html index.htm index.php</p><p>8.检查apache配置文件正确性</p><p>apachectl -t 检查配置</p><p>apachectl restart 重启apache</p><p>7.添加php测试文件</p><p>cd /usr/local/apache/htdocs/</p><p>vim 1.php &nbsp; 添加以下三行内容</p><p>\\&lt;\\?php</p><p>&nbsp; &nbsp; echo ‘php success’</p><p>&nbsp; &nbsp; \\?\\&gt;</p><p>9.测试php解析</p><p>curl 127.0.0.1/1.php</p><p>显示php success</p><p>或者直接在浏览器中输入http://ip/1.php也可以访问</p><p><br/></p>','1468207590') [ RunTime:0.0828s ]
+
+[ 2016-07-11T11:26:36+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003631s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0575s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0011s ]
+
+[ 2016-07-11T11:26:37+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003071s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0586s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0019s ]
+
+[ 2016-07-11T11:26:42+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003672s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0046s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '54' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0004s ]
+
+[ 2016-07-11T11:27:34+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003585s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0011s ]
+
+[ 2016-07-11T11:27:35+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005103s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0560s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0015s ]
+
+[ 2016-07-11T11:27:46+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0629s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 2  [ RunTime:0.0011s ]
+
+[ 2016-07-11T11:27:48+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 2  [ RunTime:0.0006s ]
+
+[ 2016-07-11T11:27:49+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003629s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0016s ]
+
+[ 2016-07-11T11:27:53+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 2  [ RunTime:0.0011s ]
+
+[ 2016-07-11T11:27:57+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 2  [ RunTime:0.0012s ]
+
+[ 2016-07-11T11:27:58+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002541s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0684s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0006s ]
+
+[ 2016-07-11T11:27:59+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006692s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0602s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0012s ]
+
+[ 2016-07-11T11:28:00+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002265s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0006s ]
+
+[ 2016-07-11T11:28:03+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 3  [ RunTime:0.0011s ]
+
+[ 2016-07-11T11:28:04+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002981s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 2  [ RunTime:0.0009s ]
+
+[ 2016-07-11T11:28:06+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0609s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 2  [ RunTime:0.0007s ]
+
+[ 2016-07-11T11:28:08+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002735s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-07-11T11:34:08+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002948s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0011s ]
+
+[ 2016-07-11T11:34:09+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002916s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0563s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0007s ]
+
+[ 2016-07-11T11:36:22+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002815s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0006s ]
+
+[ 2016-07-11T11:36:23+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005126s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0637s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0014s ]
+
+[ 2016-07-11T11:36:30+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=56
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007118s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0652s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '56' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2016-07-11T11:37:14+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=56
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003961s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0566s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '56' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0011s ]
+
+[ 2016-07-11T11:42:08+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0518s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0004s ]
+
+[ 2016-07-11T11:42:09+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003158s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0047s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0005s ]
+
+[ 2016-07-11T11:44:18+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003926s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0011s ]
+
+[ 2016-07-11T11:44:19+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004926s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0059s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0004s ]
+
+[ 2016-07-11T11:44:21+08:00 ] 127.0.0.1 /index.php/Home-Author-addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001550s ]
+
+[ 2016-07-11T11:44:26+08:00 ] 127.0.0.1 /index.php/Home-Author-addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2016-07-11T11:44:28+08:00 ] 127.0.0.1 /index.php/Home-Author-addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2016-07-11T11:44:37+08:00 ] 127.0.0.1 /index.php/Home-Author-addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0116s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('bihao ','1468208676') [ RunTime:0.1280s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 26 LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2016-07-11T11:44:39+08:00 ] 127.0.0.1 /index.php/Home-Author-addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2016-07-11T11:45:16+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003459s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0108s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0010s ]
+
+[ 2016-07-11T11:45:17+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009949s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0014s ]
+
+[ 2016-07-11T11:45:17+08:00 ] 127.0.0.1 /index.php/Home-Author-addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2016-07-11T11:45:25+08:00 ] 127.0.0.1 /index.php/Home-Author-addCmt
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001622s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0080s ]
+SQL: INSERT INTO `ch_author` (`comment`,`addtime`) VALUES ('sdfsfsdf<img src=\"http://img.baidu.com/hi/jx2/j_0015.gif\" alt=\"j_0015.gif\" />','1468208724') [ RunTime:0.1626s ]
+SQL: SELECT * FROM `ch_author` WHERE `id` = 27 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-11T11:45:55+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002693s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0533s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0005s ]
+
+[ 2016-07-11T11:45:56+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003166s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1657s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0008s ]
+
+[ 2016-07-11T11:46:02+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0569s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '54' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0007s ]
+
+[ 2016-07-11T11:46:08+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002405s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0102s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0011s ]
+
+[ 2016-07-11T11:46:09+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003380s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0012s ]
+
+[ 2016-07-11T11:46:27+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003478s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0798s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0011s ]
+
+[ 2016-07-11T11:46:28+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003301s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0005s ]
+
+[ 2016-07-11T11:46:38+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003378s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0098s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '54' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2016-07-11T11:46:41+08:00 ] 127.0.0.1 /index.php/Home-Article-addComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001874s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.1479s ]
+SQL: INSERT INTO `ch_comment` (`comcontent`,`comm_time`,`user_id`,`article_id`) VALUES ('没有什么想要说的....','1468208801','3','54') [ RunTime:0.0517s ]
+SQL: SELECT c.*,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id= c.user_id  WHERE `comment_id` = '41' LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2016-07-11T11:46:47+08:00 ] 127.0.0.1 /index.php/Home-Article-addComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001805s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0703s ]
+SQL: INSERT INTO `ch_comment` (`comcontent`,`comm_time`,`user_id`,`article_id`) VALUES ('','1468208807','3','54') [ RunTime:0.0485s ]
+SQL: SELECT c.*,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id= c.user_id  WHERE `comment_id` = '42' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-11T11:48:27+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004600s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0508s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '54' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0006s ]
+
+[ 2016-07-11T11:49:23+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007548s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0090s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '54' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0005s ]
+
+[ 2016-07-11T11:49:25+08:00 ] 127.0.0.1 /index.php/Home-Article-addComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.1489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2016-07-11T11:49:31+08:00 ] 127.0.0.1 /index.php/Home-Article-addComment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002034s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0129s ]
+SQL: INSERT INTO `ch_comment` (`comcontent`,`comm_time`,`user_id`,`article_id`) VALUES ('sdfsfsdfsdf<img src=\"http://img.baidu.com/hi/jx2/j_0016.gif\" alt=\"j_0016.gif\" />','1468208971','3','54') [ RunTime:0.0535s ]
+SQL: SELECT c.*,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id= c.user_id  WHERE `comment_id` = '43' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-11T11:50:01+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003449s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0526s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0013s ]
+
+[ 2016-07-11T11:50:02+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004743s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0134s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0019s ]
+
+[ 2016-07-11T12:15:01+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003691s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0011s ]
+
+[ 2016-07-11T12:15:02+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003302s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0154s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0028s ]
+
+[ 2016-07-11T12:15:37+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003652s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0554s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0006s ]
+
+[ 2016-07-11T12:15:38+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005021s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0633s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0011s ]
+
+[ 2016-07-11T12:16:53+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003229s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0135s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0010s ]
+
+[ 2016-07-11T12:16:54+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004870s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0562s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0005s ]
+
+[ 2016-07-11T12:18:02+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004175s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0009s ]
+
+[ 2016-07-11T12:18:03+08:00 ] 127.0.0.1 /index.php/Home-Author-getCmtList?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004714s ]
+SQL: SHOW COLUMNS FROM `ch_author` [ RunTime:0.0118s ]
+SQL: SELECT `id`,`comment`,left(from_unixtime(addtime),16) FROM `ch_author` ORDER BY id DESC LIMIT 0,6   [ RunTime:0.0006s ]
+
+[ 2016-07-11T12:18:17+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0603s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0015s ]
+
+[ 2016-07-11T12:18:18+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005571s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0960s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0006s ]
+
+[ 2016-07-11T12:18:43+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004566s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 7  [ RunTime:0.0011s ]
+
+[ 2016-07-11T12:18:46+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 8  [ RunTime:0.0014s ]
+
+[ 2016-07-11T12:18:48+08:00 ] 127.0.0.1 /index.php/Home-Category-select?cat_id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004457s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0678s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 8  [ RunTime:0.0014s ]
+
+[ 2016-07-11T12:18:50+08:00 ] 127.0.0.1 /index.php/Home-Echarts-province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `ch_user` [ RunTime:0.0144s ]
+SQL: SELECT count(p.name) as count,p.name FROM ch_user u INNER JOIN ch_province as p on u.province=p.code  WHERE ( u.province = p.code ) GROUP BY province  [ RunTime:0.0282s ]
+
+[ 2016-07-11T12:18:51+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003802s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0013s ]
+
+[ 2016-07-11T12:19:08+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002855s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0541s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0005s ]
+
+[ 2016-07-11T12:19:09+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003759s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0123s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0018s ]
+
+[ 2016-07-11T12:19:20+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004337s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0009s ]
+
+[ 2016-07-11T12:19:21+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002732s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.1760s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0006s ]
+
+[ 2016-07-11T12:36:28+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001628s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.1287s ]
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'c.comm_time' in 'field list'
+
+[ 2016-07-11T13:02:40+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037108s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0617s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0615s ]
+
+[ 2016-07-11T13:02:41+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.037058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037120s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0477s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0401s ]
+
+[ 2016-07-11T13:11:10+08:00 ] 127.0.0.1 /index.php/Index-index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015543s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0601s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0585s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ch_article` WHERE `ac_active` = 1 LIMIT 1   [ RunTime:0.0602s ]
+SQL: SELECT from_unixtime("ac_time"),`article_id`,`ac_title`,`ac_active`,`read_count` FROM `ch_article` WHERE `ac_active` = 1 ORDER BY ac_time DESC LIMIT 0,4   [ RunTime:0.0601s ]
+SQL: SELECT `cat_id`,`cat_name`,`cat_pid` FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000590s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000819s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.014444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.029385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.029496s ]
+
+[ 2016-07-11T13:11:10+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0790s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0797s ]
+
+[ 2016-07-11T13:11:11+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0401s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0414s ]
+
+[ 2016-07-11T13:11:17+08:00 ] 127.0.0.1 /index.php/Home-Api-weather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002029s ]
+
+[ 2016-07-11T13:17:11+08:00 ] 127.0.0.1 /index.php/Index-index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002027s ]
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0589s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0578s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ch_article` WHERE `ac_active` = 1 LIMIT 1   [ RunTime:0.0612s ]
+SQL: SELECT from_unixtime("ac_time"),`article_id`,`ac_title`,`ac_active`,`read_count` FROM `ch_article` WHERE `ac_active` = 1 ORDER BY ac_time DESC LIMIT 0,4   [ RunTime:0.0593s ]
+SQL: SELECT `cat_id`,`cat_name`,`cat_pid` FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002671s ]
+
+[ 2016-07-11T13:17:12+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005793s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0623s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0580s ]
+
+[ 2016-07-11T13:17:13+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0594s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0606s ]
+
+[ 2016-07-11T13:17:14+08:00 ] 127.0.0.1 /index.php/Home-Api-weather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003527s ]
+
+[ 2016-07-11T13:17:23+08:00 ] 127.0.0.1 /index.php/Home-Article-show-id-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0591s ]
+SQL: SELECT a.*,count(c.article_id) as count FROM ch_article a INNER JOIN ch_comment as c on c.article_id = a.article_id  WHERE a.article_id = '1' AND a.ac_active = 1 LIMIT 1   [ RunTime:0.0600s ]
+SQL: UPDATE `ch_article` SET `read_count`=read_count+1 WHERE `article_id` = 1 [ RunTime:0.0594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004992s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007466s ]
+
+[ 2016-07-11T13:17:24+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002173s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0387s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '1' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0452s ]
+
+[ 2016-07-11T13:17:26+08:00 ] 127.0.0.1 /index.php/Home-Article-add_doll?article_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0601s ]
+SQL: UPDATE `ch_article` SET `ac_doll`=ac_doll+1 WHERE `article_id` = 1 [ RunTime:0.0656s ]
+SQL: SELECT `ac_doll` FROM `ch_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0603s ]
+
+[ 2016-07-11T13:26:30+08:00 ] 127.0.0.1 /index.php/Home-Article-add_doll?article_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001640s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001728s ]
+
+[ 2016-07-11T13:26:31+08:00 ] 127.0.0.1 /index.php/Home-Article-add_doll?article_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2016-07-11T13:26:32+08:00 ] 127.0.0.1 /index.php/Home-Category-cat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002383s ]
+SQL: SHOW COLUMNS FROM `ch_category` [ RunTime:0.0606s ]
+SQL: SELECT * FROM `ch_category` WHERE `cat_pid` = 0  [ RunTime:0.0587s ]
+
+[ 2016-07-11T13:26:32+08:00 ] 127.0.0.1 /index.php/Home-Article-getArticle?page_index=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0487s ]
+SQL: SELECT a.article_id,a.user_id,a.ac_title,a.ac_content,from_unixtime(a.ac_time) as time,a.read_count,a.ac_active,u.user_name,u.user_small_logo FROM ch_article a INNER JOIN ch_user as u on a.user_id = u.user_id  WHERE ( a.ac_active=1 ) ORDER BY a.read_count DESC LIMIT 0,4   [ RunTime:0.0467s ]
+
+[ 2016-07-11T13:26:37+08:00 ] 127.0.0.1 /index.php/Home-Api-weather
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002293s ]
+
+[ 2016-07-11T13:26:37+08:00 ] 127.0.0.1 /index.php/Home-Article-show-id-2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0758s ]
+SQL: SELECT a.*,count(c.article_id) as count FROM ch_article a INNER JOIN ch_comment as c on c.article_id = a.article_id  WHERE a.article_id = '2' AND a.ac_active = 1 LIMIT 1   [ RunTime:0.0740s ]
+SQL: UPDATE `ch_article` SET `read_count`=read_count+1 WHERE `article_id` = 2 [ RunTime:0.0756s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002063s ]
+
+[ 2016-07-11T13:26:38+08:00 ] 127.0.0.1 /index.php/Home-Article-getComment?page_index=0&article_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_comment` [ RunTime:0.0407s ]
+SQL: SELECT c.comcontent,left(from_unixtime(c.comm_time),10) as time,c.comment_id,c.user_id,u.nick_name FROM ch_comment c INNER JOIN ch_user as u on u.user_id = c.user_id  WHERE c.article_id = '2' ORDER BY c.comment_id DESC LIMIT 0,10   [ RunTime:0.0400s ]
+
+[ 2016-07-11T13:26:40+08:00 ] 127.0.0.1 /index.php/Home-Article-add_doll?article_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `ch_article` [ RunTime:0.0588s ]
+SQL: UPDATE `ch_article` SET `ac_doll`=ac_doll+1 WHERE `article_id` = 2 [ RunTime:0.0605s ]
+SQL: SELECT `ac_doll` FROM `ch_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0560s ]
+
+[ 2016-07-11T13:26:42+08:00 ] 127.0.0.1 /index.php/Home-Article-add_doll?article_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [2] Declaration of Home\Controller\ArticleController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\wamp\apache\htdocs\chmake\Home\Controller\ArticleController.class.php 第 12 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+

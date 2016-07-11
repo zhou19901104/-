@@ -1,0 +1,1299 @@
+[ 2016-07-05T08:29:21+08:00 ] 127.0.0.1 /index.php/User/logout.html
+ERR: 非法操作:logout
+
+[ 2016-07-05T08:50:14+08:00 ] 127.0.0.1 /index.php/Linux/www.chmake.cn
+ERR: 非法操作:www.chmake.cn
+
+[ 2016-07-05T09:32:15+08:00 ] 127.0.0.1 /index.php/Home/Api/weather
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004884s ]
+
+[ 2016-07-05T10:57:03+08:00 ] 127.0.0.1 /index.php/User/IMG_URL.htmlform/uploadPreview.js
+ERR: 非法操作:IMG_URL.htmlform
+
+[ 2016-07-05T10:57:39+08:00 ] 127.0.0.1 /index.php/User/IMG_URL.htmlform/uploadPreview.js
+ERR: 非法操作:IMG_URL.htmlform
+
+[ 2016-07-05T10:59:02+08:00 ] 127.0.0.1 /index.php/User/IMG_URL.htmlform/uploadPreview.js
+ERR: 非法操作:IMG_URL.htmlform
+
+[ 2016-07-05T10:59:11+08:00 ] 127.0.0.1 /index.php/User/IMG_URL.htmlform/uploadPreview.js
+ERR: 非法操作:IMG_URL.htmlform
+
+[ 2016-07-05T10:59:38+08:00 ] 127.0.0.1 /index.php/User/IMG_URL.htmlform/uploadPreview.js
+ERR: 非法操作:IMG_URL.htmlform
+
+[ 2016-07-05T11:00:03+08:00 ] 127.0.0.1 /index.php/User/JS_URL.htmlform/uploadPreview.js
+ERR: 非法操作:JS_URL.htmlform
+
+[ 2016-07-05T12:38:18+08:00 ] 127.0.0.1 /index.php/User/userinfo.html
+ERR: 1364:Field 'source_from' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ch_member` (`nick_name`,`mobile`,`sex`,`address`,`job`,`user_logo`,`user_id`) VALUES ('sdf','的师范生非师范生的范德萨发','1','12','sdf','20120221084234.jpg','5')
+
+[ 2016-07-05T12:39:08+08:00 ] 127.0.0.1 /index.php/User/userinfo.html
+ERR: 1364:Field 'source_from' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ch_member` (`nick_name`,`mobile`,`sex`,`address`,`job`,`user_logo`,`user_id`) VALUES ('sdf','2342342342','1','12','sdf','20120221084234.jpg','5')
+
+[ 2016-07-05T12:40:05+08:00 ] 127.0.0.1 /index.php/User/userinfo.html
+ERR: 1364:Field 'source_from' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `ch_member` (`nick_name`,`mobile`,`sex`,`address`,`job`,`user_logo`,`user_id`) VALUES ('sdf','2342342342','1','12','sdf','20120221084234.jpg','5')
+
+[ 2016-07-05T12:58:25+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: 1265:Data truncated for column 'sex' at row 1
+ [ SQL语句 ] : INSERT INTO `ch_member` (`nick_name`,`mobile`,`sex`,`address`,`job`,`user_id`) VALUES ('sdf','12313123123','2','123123','12312312','5')
+
+[ 2016-07-05T13:43:55+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: Think\Controller:_user_logo方法不存在！
+
+[ 2016-07-05T13:44:22+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: Think\Controller:_user_logo方法不存在！
+
+[ 2016-07-05T13:44:43+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: Think\Controller:_user_logo方法不存在！
+
+[ 2016-07-05T13:45:27+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: Class 'Think\Upload' not found
+
+[ 2016-07-05T13:48:22+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: 不存在的图像文件
+
+[ 2016-07-05T13:50:02+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: 不存在的图像文件
+
+[ 2016-07-05T13:51:03+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: 不存在的图像文件
+
+[ 2016-07-05T14:00:23+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: 不存在的图像文件
+
+[ 2016-07-05T14:02:28+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: 不存在的图像文件
+
+[ 2016-07-05T14:03:44+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: 不存在的图像文件
+
+[ 2016-07-05T14:07:27+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: 不存在的图像文件
+
+[ 2016-07-05T14:10:54+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: 不存在的图像文件
+
+[ 2016-07-05T14:13:43+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: 不存在的图像文件
+
+[ 2016-07-05T14:15:23+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: 不存在的图像文件
+
+[ 2016-07-05T14:17:56+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: 不存在的图像文件
+
+[ 2016-07-05T14:27:50+08:00 ] 127.0.0.1 /index.php/Member/userinfo.html
+ERR: 不存在的图像文件
+
+[ 2016-07-05T18:06:42+08:00 ] 127.0.0.1 /index.php/Home/Api/weather
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003229s ]
+
+[ 2016-07-05T18:42:46+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:42:46+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:42:46+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:42:46+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:42:55+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:42:55+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:42:55+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:42:55+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:42:55+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:42:55+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:43:27+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:43:27+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:43:27+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:43:27+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:43:27+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:43:27+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:44:48+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:44:48+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:44:48+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:44:49+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:44:49+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:46:29+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:46:29+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:46:29+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:46:29+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:46:29+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:46:29+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:46:38+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:46:38+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:46:38+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:46:38+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:46:38+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:46:38+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:49:13+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:49:13+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:49:13+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:49:13+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:49:13+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:49:13+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:49:48+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:49:48+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:49:48+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:49:48+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:49:48+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:49:48+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:51:21+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:51:21+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:51:21+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:51:21+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:51:21+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:51:21+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:52:07+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:52:08+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:52:08+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:52:08+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:52:08+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:52:08+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:52:16+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:52:16+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:52:16+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:52:16+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:52:16+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:52:16+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:54:34+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:54:34+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:54:35+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:54:35+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:54:35+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:56:12+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:56:12+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:56:12+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:56:13+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.config.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:56:13+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/ueditor.all.min.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T18:56:13+08:00 ] 127.0.0.1 /index.php/Author/%7B:C('PLUGIN_URL')%7DuEditor/lang/zh-cn/zh-cn.js
+ERR: 非法操作:{:C('PLUGIN_URL')}uEditor
+
+[ 2016-07-05T22:09:31+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005902s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0875s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-05T22:12:58+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002653s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0006s ]
+
+[ 2016-07-05T22:13:22+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003811s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-05T22:13:35+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0007s ]
+
+[ 2016-07-05T22:13:54+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003434s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-05T22:16:02+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003804s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-05T22:16:26+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003619s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0007s ]
+
+[ 2016-07-05T22:16:51+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003240s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.1145s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-05T22:18:00+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002632s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-05T22:18:17+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002109s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-05T22:20:36+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002689s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:03:23+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003050s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0016s ]
+
+[ 2016-07-05T23:11:50+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004807s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:11:52+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=140000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002153s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '140000'  [ RunTime:0.0051s ]
+
+[ 2016-07-05T23:11:57+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=330000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0536s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '330000'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:12:00+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=370000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003657s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0587s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '370000'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:12:06+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=410000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002026s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '410000'  [ RunTime:0.0012s ]
+
+[ 2016-07-05T23:15:01+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002914s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:15:05+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=140000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.1639s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '140000'  [ RunTime:0.0009s ]
+
+[ 2016-07-05T23:15:33+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003657s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:15:42+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=410000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0566s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '410000'  [ RunTime:0.0008s ]
+
+[ 2016-07-05T23:15:46+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=411500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0616s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '411500'  [ RunTime:0.0010s ]
+
+[ 2016-07-05T23:17:20+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003862s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:17:26+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=410000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002897s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0542s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '410000'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:17:32+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=411500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0525s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '411500'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:18:00+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=410500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '410500'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:18:03+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=411300
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001877s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '411300'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:20:15+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002509s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:20:19+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=130000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0660s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '130000'  [ RunTime:0.0013s ]
+
+[ 2016-07-05T23:20:23+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=130300
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0536s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '130300'  [ RunTime:0.0011s ]
+
+[ 2016-07-05T23:20:32+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=410000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001723s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '410000'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:20:36+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=410200
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1713s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '410200'  [ RunTime:0.0008s ]
+
+[ 2016-07-05T23:20:46+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=411100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '411100'  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:20:53+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=410300
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '410300'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:20:57+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=340000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0547s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '340000'  [ RunTime:0.0009s ]
+
+[ 2016-07-05T23:21:04+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=340700
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001488s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0543s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '340700'  [ RunTime:0.0016s ]
+
+[ 2016-07-05T23:21:11+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=140000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002173s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0321s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '140000'  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:21:18+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=140600
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0531s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '140600'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:21:25+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001511s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.1040s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0008s ]
+
+[ 2016-07-05T23:21:39+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=130000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '130000'  [ RunTime:0.0015s ]
+
+[ 2016-07-05T23:21:43+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=130400
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '130400'  [ RunTime:0.0013s ]
+
+[ 2016-07-05T23:21:49+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=630000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001436s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0576s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '630000'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:21:53+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=632500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1281s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '632500'  [ RunTime:0.0026s ]
+
+[ 2016-07-05T23:22:01+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=810000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.1220s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '810000'  [ RunTime:0.0013s ]
+
+[ 2016-07-05T23:22:04+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=420000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001814s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '420000'  [ RunTime:0.0011s ]
+
+[ 2016-07-05T23:22:08+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=420700
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0711s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '420700'  [ RunTime:0.0014s ]
+
+[ 2016-07-05T23:23:37+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002357s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:23:52+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=120000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0586s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '120000'  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:23:58+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=130000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002765s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '130000'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:24:00+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:24:07+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=120000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0579s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '120000'  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:24:13+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=130000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002797s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '130000'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:24:18+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=130400
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003499s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.1237s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '130400'  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:24:25+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:25:50+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004647s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:25:54+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=230000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002389s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0531s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '230000'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:25:58+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=230400
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002232s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0520s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '230400'  [ RunTime:0.0011s ]
+
+[ 2016-07-05T23:26:04+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=130000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '130000'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:26:58+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:27:00+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=150000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0861s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '150000'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:27:04+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=150400
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0547s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '150400'  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:27:10+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=120000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '120000'  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:27:14+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=230000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '230000'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:27:22+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=340000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0581s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '340000'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:27:52+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002700s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:27:54+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=320000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001167s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '320000'  [ RunTime:0.0010s ]
+
+[ 2016-07-05T23:27:57+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=320500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '320500'  [ RunTime:0.0010s ]
+
+[ 2016-07-05T23:28:01+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=140000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '140000'  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:28:17+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=140400
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002302s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '140400'  [ RunTime:0.0011s ]
+
+[ 2016-07-05T23:28:22+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=140100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '140100'  [ RunTime:0.0009s ]
+
+[ 2016-07-05T23:28:48+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005008s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:29:03+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003133s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.1493s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0012s ]
+
+[ 2016-07-05T23:29:07+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=440000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001419s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '440000'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:29:22+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001635s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0144s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0009s ]
+
+[ 2016-07-05T23:29:26+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:29:32+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003415s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0552s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:29:40+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=410000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002081s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '410000'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:29:47+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=410100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0536s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '410100'  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:29:55+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=410200
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0541s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '410200'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:30:01+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=310000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003567s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '310000'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:30:04+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=320000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '320000'  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:30:13+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=340000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001910s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '340000'  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:30:24+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=340500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003708s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '340500'  [ RunTime:0.0009s ]
+
+[ 2016-07-05T23:31:30+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006667s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0010s ]
+
+[ 2016-07-05T23:31:32+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=140000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001987s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '140000'  [ RunTime:0.0010s ]
+
+[ 2016-07-05T23:31:36+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=140500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001886s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '140500'  [ RunTime:0.0013s ]
+
+[ 2016-07-05T23:31:49+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=220000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002633s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '220000'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:31:57+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=220400
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002643s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0935s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '220400'  [ RunTime:0.0008s ]
+
+[ 2016-07-05T23:32:13+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=410000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002552s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '410000'  [ RunTime:0.0009s ]
+
+[ 2016-07-05T23:32:19+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=411500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002648s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0594s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '411500'  [ RunTime:0.0015s ]
+
+[ 2016-07-05T23:32:32+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=410100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003965s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '410100'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:32:40+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.1451s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0010s ]
+
+[ 2016-07-05T23:32:52+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=420000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002088s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0662s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '420000'  [ RunTime:0.0014s ]
+
+[ 2016-07-05T23:32:56+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=420300
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002694s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0509s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '420300'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:33:10+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=420700
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002004s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '420700'  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:33:14+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=420900
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001896s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0566s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '420900'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:33:36+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003172s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:33:39+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=140000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0629s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '140000'  [ RunTime:0.0008s ]
+
+[ 2016-07-05T23:33:42+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=140500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0619s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '140500'  [ RunTime:0.0012s ]
+
+[ 2016-07-05T23:33:49+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=330000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002463s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '330000'  [ RunTime:0.0014s ]
+
+[ 2016-07-05T23:33:54+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=330300
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002197s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '330300'  [ RunTime:0.0009s ]
+
+[ 2016-07-05T23:34:16+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003241s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:34:19+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=210000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '210000'  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:34:22+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=210500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002436s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '210500'  [ RunTime:0.0011s ]
+
+[ 2016-07-05T23:34:27+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=130000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0582s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '130000'  [ RunTime:0.0012s ]
+
+[ 2016-07-05T23:34:32+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=130200
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001341s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0651s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '130200'  [ RunTime:0.0011s ]
+
+[ 2016-07-05T23:34:42+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=410000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0604s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '410000'  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:34:49+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=411500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '411500'  [ RunTime:0.0008s ]
+
+[ 2016-07-05T23:38:52+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002453s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0290s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:38:55+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=410000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001810s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0498s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '410000'  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:39:04+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=411500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0633s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '411500'  [ RunTime:0.0015s ]
+
+[ 2016-07-05T23:39:58+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003938s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:40:02+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=410000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002495s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0786s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '410000'  [ RunTime:0.0013s ]
+
+[ 2016-07-05T23:40:12+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=410800
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '410800'  [ RunTime:0.0018s ]
+
+[ 2016-07-05T23:40:24+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=411500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002282s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0621s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '411500'  [ RunTime:0.0009s ]
+
+[ 2016-07-05T23:46:18+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004291s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:46:22+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=410000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0712s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '410000'  [ RunTime:0.0022s ]
+
+[ 2016-07-05T23:46:31+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=410300
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '410300'  [ RunTime:0.0018s ]
+
+[ 2016-07-05T23:46:38+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=410100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '410100'  [ RunTime:0.0022s ]
+
+[ 2016-07-05T23:46:45+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=140000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '140000'  [ RunTime:0.0010s ]
+
+[ 2016-07-05T23:46:57+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=140200
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002870s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0624s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '140200'  [ RunTime:0.0029s ]
+
+[ 2016-07-05T23:46:59+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=140100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0646s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '140100'  [ RunTime:0.0029s ]
+
+[ 2016-07-05T23:47:50+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0005s ]
+
+[ 2016-07-05T23:47:51+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001439s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:47:52+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002267s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0017s ]
+
+[ 2016-07-05T23:47:56+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=130000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0549s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '130000'  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:47:58+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=130100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0555s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '130100'  [ RunTime:0.0029s ]
+
+[ 2016-07-05T23:48:02+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=130600
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0571s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '130600'  [ RunTime:0.0031s ]
+
+[ 2016-07-05T23:50:17+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=120000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001595s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '120000'  [ RunTime:0.0007s ]
+
+[ 2016-07-05T23:50:18+08:00 ] 127.0.0.1 /index.php/Home/Member/area
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = ''  [ RunTime:0.0023s ]
+
+[ 2016-07-05T23:50:23+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004232s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:50:24+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0384s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0010s ]
+
+[ 2016-07-05T23:50:25+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0941s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0017s ]
+
+[ 2016-07-05T23:50:28+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=320000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0611s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '320000'  [ RunTime:0.0019s ]
+
+[ 2016-07-05T23:50:29+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=320100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001543s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0533s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '320100'  [ RunTime:0.0019s ]
+
+[ 2016-07-05T23:50:31+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=320500
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '320500'  [ RunTime:0.0014s ]
+
+[ 2016-07-05T23:50:58+08:00 ] 127.0.0.1 /index.php/Home/Member/province
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+SQL: SHOW COLUMNS FROM `ch_province` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `ch_province` WHERE ( 2>1 )  [ RunTime:0.0006s ]
+
+[ 2016-07-05T23:50:59+08:00 ] 127.0.0.1 /index.php/Home/Member/city?provincecode=110000
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001442s ]
+SQL: SHOW COLUMNS FROM `ch_city` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `ch_city` WHERE `provincecode` = '110000'  [ RunTime:0.0004s ]
+
+[ 2016-07-05T23:51:00+08:00 ] 127.0.0.1 /index.php/Home/Member/area?citycode=110100
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `ch_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `ch_area` WHERE `citycode` = '110100'  [ RunTime:0.0010s ]
+
